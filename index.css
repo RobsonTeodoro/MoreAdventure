@@ -286,6 +286,11 @@ p:not(.ttt){
     box-sizing: border-box;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
 footer {
     clear: both;
 }
