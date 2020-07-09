@@ -268,6 +268,11 @@ p:not(.ttt){
     margin:20px ;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
 .btn-custom{
     background-color: transparent;
     font-size:18px;
@@ -282,15 +287,6 @@ p:not(.ttt){
    display: flex;
  }
 
- *{
-    box-sizing: border-box;
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  filter: invert(1);
-}
-
 footer {
     clear: both;
 }
@@ -303,24 +299,6 @@ footer .container p {
     text-align: center;
 }
 
-.social {
-    position: absolute;
-    bottom: 80px;
-    right: 100px;
-}
-
-.social a {
-    height: 32px;
-    width: -25px;
-    display: block;
-    /*text-indent: -9999px;*/
-}
-
-
-#testando{
-    background-color: rgba(245, 245, 245, 1);
-     opacity: .8;
-}
 
 /*.row:not(.sss) {
     display: flex;
