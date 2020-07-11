@@ -18,9 +18,8 @@
 
     <body>
         <header class="container-fluid container-md">
-            <div class="jumbotron-fluid mx-auto d-block JumboHeadImgbateVolta">
+            <div class="jumbotron-fluid mx-auto d-block JumboHeadImgbateVoltaPNE">
                 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-                    <!--<a class="navbar-brand text-success font-weight-bold" href="main.html">Trilhando Teresópolis</a>-->
                     <a class="navbar-brand" href="index.html">
                         <img src="Imagens/logo2.jpg" alt="Trilhando Teresópolis" width="110px">
                     </a>
@@ -38,10 +37,7 @@
                                 </a>
                             </li>
 
-                            <!--<li class="nav-item active">
-                                <a class="nav-link font-weight-bold text-success" href="produtos.html">Compras</a>
-                            </li>-->
-
+                            
                             <li class="nav-item active">
                                 <a class="nav-link font-weight-bold text-success" href="aventuras.html">
                                     <i class="fa fa-plane"></i>
@@ -95,13 +91,7 @@
             </div>
         </header>
 
-        <section>
-            <div class="container container-fluid container-md">
-                <h3 class="text-center text-white font-weight-bolder bg-success">
-                    EVENTOS DE BATE E VOLTA <i class="fa fa-wheelchair font-weight-bolder"></i>
-                </h3>
-            </div>
-        </section>
+        
 
         <section>
             <p>
@@ -124,6 +114,20 @@
                     </nav>
                 </div>
             </p>
+        </section>
+
+        <section>
+            <div class="container-md container-fluid">
+                    <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                    <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" >
+                        <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                        <input type="hidden" name="code" value="0B16A11B4343CAB664339FAEE8285785" />
+                        <input type="hidden" name="iot" value="button" />
+                        <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar.gif" 
+                        name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" target="_blank"/>
+                    </form>
+                    <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+            </div>
         </section>
 
 

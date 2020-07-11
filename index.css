@@ -27,13 +27,6 @@
     padding: 190px;
 }
 
-.JumboHeadImgFeriado {
-    background-image: url(Imagens/travessia5.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-}
 .JumboHeadImgGuias {
     background-image: url(Imagens/travessia12.jpg);
     background-size: cover;
@@ -99,7 +92,7 @@
     padding: 190px;
   }
   .JumboHeadParc {
-    background-image: url(Imagens/travessia4.jpg);
+    background-image: url(Imagens/caete.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -168,8 +161,8 @@
     background-repeat: no-repeat;
     padding: 190px;
 }
-.JumboHeadImgbateVolta {
-    background-image: url(Imagens/travessia3.jpg);
+.JumboHeadImgbateVoltaPNE {
+    background-image: url(Imagens/telegrafo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
