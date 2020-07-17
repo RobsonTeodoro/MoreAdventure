@@ -182,10 +182,57 @@
     background-repeat: no-repeat;
     padding: 190px;
 }
+
+.JumboHeadImgForm {
+    background-image: url(Imagens/telegrafo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 190px;
+}
   
 
 *{
     box-sizing: border-box;
+}
+
+#containere{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(11, 126, 11, 0.5);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  #containere img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px; 
+  }
+
+  input:not(.dist) {
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+  }
+
+  input.email{
+      background-image: url(Imagens/icone-usuario.png);
+  }
+
+  input.senha{
+    background-image: url(Imagens/icone-cadeado.png);
 }
 
 p:not(.ttt){
