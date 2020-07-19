@@ -191,7 +191,6 @@
     padding: 190px;
 }
   
-
 *{
     box-sizing: border-box;
 }
@@ -306,7 +305,7 @@ p:not(.ttt){
 .card .card-reveal p{
     color: rgba(0, 0, 0, 0.71);
     margin:20px ;
-}
+}*/
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
