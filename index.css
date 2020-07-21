@@ -305,7 +305,7 @@ p:not(.ttt){
 .card .card-reveal p{
     color: rgba(0, 0, 0, 0.71);
     margin:20px ;
-}*/
+}
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
@@ -338,16 +338,15 @@ footer .container p {
     text-align: center;
 }
 
+
+/*.navbar a:hover{
+    background-color: rgb(33, 214, 48);
+}*/
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
 }
-
-/*.
-.navbar a:hover{
-    background-color: rgb(33, 214, 48);
-}*/
-
 
 @media only screen and (max-width: 768px) {
     .JumboHeadImg{
