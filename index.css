@@ -338,16 +338,12 @@ footer .container p {
     text-align: center;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
 
-/*.row:not(.sss) {
-    display: flex;
-    flex-wrap: wrap;
- }
- 
- .row:not(.sss) > div[class*='col-'] {
-   display: flex;
- }
-
+/*.
 .navbar a:hover{
     background-color: rgb(33, 214, 48);
 }*/
