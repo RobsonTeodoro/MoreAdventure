@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .JumboHeadImgIndex {
     background-image: url(Imagens/sacristia4.jpg);
     background-size: cover;
