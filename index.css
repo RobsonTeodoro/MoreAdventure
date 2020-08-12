@@ -2,6 +2,17 @@ html{
     scroll-behavior: smooth;
 }
 
+
+body{
+    background-color: white;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
 .JumboHeadImgIndex {
     background-image: url(Imagens/sacristia4.jpg);
     background-size: cover;

@@ -13,6 +13,10 @@
         <link rel="stylesheet" href="css/bootstrap-reboot.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         <title>Trilhando Teresópolis</title>
+
+        <style>
+            
+        </style>
     </head>
 
     <body>
@@ -104,6 +108,14 @@
                 TRILHANDO TERESÓPOLIS - SUA AVENTURA COMEÇA AQUI!
             </h3>
         </div>
+
+        <section>
+            <div class="container-fluid container-md">
+                <button class="btn btn-success" onclick="myFunction()">
+                    Modo Escuro
+                </button>
+            </div>
+        </section>
 
         <section>
             <p>
@@ -297,7 +309,7 @@
                                 <h5 class="card-title text-md-center font-weight-bolder">Aniversariantes do Mês</h5>
                                 <p class="ttt card-text text-md-center">Muitas montanhas para vocês!</p>                                
                                     <p class="ttt card-footer text-sm-center">
-                                            <strong>Parabéns Adventures! 🎂</strong>
+                                            <strong>Parabéns Adventures! 🎂 </strong>
                                     </p>
                                 </p>
                             </div>
@@ -505,7 +517,13 @@
                                 </ul>
                             </div>
                             <script src="js/jquery.js"></script>
-                            <script src="js/bootstrap.bundle.min.js"></script> 
+                            <script src="js/bootstrap.bundle.min.js"></script>
+                            <script>
+                                function myFunction(){
+                                    var element = document.body;
+                                    element.classList.toggle("dark-mode")
+                                }
+                            </script>
                         </div>
                     </p>
                 </div>
