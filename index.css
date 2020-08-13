@@ -3,10 +3,10 @@ html{
 }
 
 
-body{
+/*body{
     background-color: white;
     color: black;
-}
+}*/
 
 .dark-mode{
     background-color: black;
@@ -64,14 +64,14 @@ body{
     padding: 190px;
   }
   .JumboHeadImgPNE2 {
-    background-image: url(Imagens/papagaio.jpg);
+    background-image: url(Imagens/elefante.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 190px;
   }
   .JumboHeadImgPNE3 {
-    background-image: url(Imagens/papagaio.jpg);
+    background-image: url(Imagens/capim.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -199,7 +199,7 @@ body{
 }
 
 .JumboHeadImgForm {
-    background-image: url(Imagens/telegrafo.jpg);
+    background-image: url(Imagens/capim2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
