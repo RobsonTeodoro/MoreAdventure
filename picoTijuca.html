@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-reboot.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <title>Tijuca - Trilhando Teresópolis</title>
 
         <style>
@@ -83,7 +84,7 @@
                             
                             <li class="nav-item active">
                                 <a class="nav-link font-weight-bold text-success" href="sobre.html">
-                                    <i class="fa fa-male"></i>
+                                    <i class="fa fa-hourglass-2"></i>
                                     Sobre Nós
                                 </a>
                             </li>
@@ -93,6 +94,7 @@
                                     <i class="fa fa-sign-in"></i>
                                     Login/Cadastro</a>
                             </li>
+
                         </ul>
                     </div>
                 </nav>
@@ -112,7 +114,7 @@
                 <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
                 <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
                 <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-                <input class="dist" type="hidden" name="code" value="8473802CECEC2C8AA4D07F9C8046AF88" />
+                <input class="dist" type="hidden" name="code" value="D8EA452E1313CCAFF4FE6FB26A42E8CD" />
                 <input class="dist" type="hidden" name="iot" value="button" />
                 <input class="dist" type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
                 </form>
@@ -206,26 +208,36 @@
         </section>
 
         <section>
-          <div class="container-md container-fluid" >
+            <div class="container-md container-fluid" >
+                <p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyGeZJPnCeaMPaZEq8nyWbPn6pigbtwwIx0tKuffEBLHtf3w/viewform?embedded=true"
+                     target="_blank" rel="noopener noreferrer" width="822" height="773" frameborder="0" marginheight="0" marginwidth="0">Responda ao Questionário</a>
+                </p>
+              </div>
+            
+        </section>
 
+        <section>
+          <div class="container-md container-fluid" >
             <p>
               Gostou da trilha?
               Compre apertando o botão abaixo e venha conosco!
             </p>
+          </div>
         </section>
-
+        
         <section>
             <div class="container-md container-fluid">
                 <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
                 <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
                 <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-                <input class="dist" type="hidden" name="code" value="8473802CECEC2C8AA4D07F9C8046AF88" />
+                <input class="dist" type="hidden" name="code" value="D8EA452E1313CCAFF4FE6FB26A42E8CD" />
                 <input class="dist" type="hidden" name="iot" value="button" />
                 <input class="dist" type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
                 </form>
                 <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
             </div>
-        </section>        
+        </section>
 
         <hr>
 
@@ -318,7 +330,30 @@
                                 </ul>
                             </div>
                             <script src="js/jquery.js"></script>
-                            <script src="js/bootstrap.bundle.min.js"></script> 
+                            <script src="js/bootstrap.bundle.min.js"></script>
+
+                            <script>
+                                new Vue({
+                                  el: '#app',
+                                  data:{
+                                      linkHtml:'<a class="nav-link font-weight-bold text-success" href="sobre.html"><i class="fa fa-male"></i>Sobre Nós</a>',
+                                  },
+
+                                  el:'#pne',
+                                  data:{
+                                    //linkHtml2:'<a class="nav-link font-weight-bold text-success" href="dicas.html"><i class="fa fa-lightbulb-o"></i>Dicas</a>',
+                                      linkHtml3:'<a class="nav-link font-weight-bold text-success" href="pnePrincipal.html"><i class="fa fa-wheelchair font-weight-bold"></i>PNE</a>'
+                                  },
+                                  methods:{
+                                    saudacao: function(){
+                                      this.titulo = 'Bom dia!'
+                                      return this.titulo
+                                    }        
+                                  }
+                              })
+                              </script>
+
+
                         </div>
                     </p>
                 </div>
