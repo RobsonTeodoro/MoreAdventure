@@ -141,7 +141,7 @@ html{
     padding: 190px;
   }
   .JumboHeadImgProd {
-    background-image: url(Imagens/bandeira3.jpg);
+    background-image: url(Imagens/telegrafo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -199,6 +199,14 @@ html{
 
 .JumboHeadImgForm {
     background-image: url(Imagens/capim2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 190px;
+}
+
+.JumboHeadImgbateVoltaPNE {
+    background-image: url(Imagens/telegrafo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

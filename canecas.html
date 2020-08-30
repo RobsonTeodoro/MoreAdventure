@@ -61,6 +61,13 @@
                             </li>
 
                             <li class="nav-item active">
+                                <a class="nav-link font-weight-bold text-success" href="produtos.html">
+                                    <i class="fa fa-shopping-cart"></i>
+                                        Compras
+                                </a>                                    
+                            </li>
+
+                            <li class="nav-item active">
                                 <a class="nav-link font-weight-bold text-success" href="noticiasPrincipal.html">
                                     <i class="fa fa-newspaper-o"></i>
                                     Notícias
@@ -98,38 +105,56 @@
             </div>
         </header>
 
-        <p>
-            <div class="container-fluid container-md">
-                <nav>
-                    <ul>
-                        <li>
-                            Nossos produtos
-                            <ul>
-                                <li><a href="agendas.html">Agendas</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+        <div class="container container-fluid container-md">
+            <h3 class="text-white text-center font-weight-bold bg-success">
+                SESSÃO DE COMPRAS - CANECAS
+            </h3>
+        </div>
+
+        <section>
+            <p>
+                <div class="container-fluid container-md dropdown">
+                    <nav>
+                        <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" 
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Produtos
+                        </a>
+                
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <h6 class="dropdown-header">Produtos</h6>
+                            <a class="dropdown-item text-success font-weight-bold" href="produtos.html">Produtos</a>
+                            <a class="dropdown-item text-success font-weight-bold" href="agendas.html">Agendas</a>
+                            <a class="dropdown-item text-success font-weight-bold disabled" href="canecas.html">Canecas</a>
+                        </div>
+                    </nav>
+                </div>
+            </p>
+        </section>
+        
     
-            <div class="container-fluid container-md">
-                <div class="row">
-                    <div class="col-3">
-                        <div class="card border bg-secondary">
-                            <img src="Imagens/caneca.jpg" alt="agenda" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title text-center"><b>Caneca More Adventure</b></h5>
-                                <p class="card-text">
-                                    Caneca personalizada More Adventure para a melhor parte das trilhas, o <strong>café</strong> nas montanhas!
-                                </p>
-                                <p class="card-footer text-center">
-                                    Por apenas R$ 14,90
-                                </p>
+        <section>
+            <div>
+                <div class="container container-fluid container-md">
+                    <div class="row">                                                
+                        <div class="col-sm-3">
+                            <div class="card w3-lime">
+                                <a href="iniciantes.html">
+                                    <img src="Imagens/caneca.jpg" class="img-fluid card-img-top">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark text-center"><b>Caneca Trilhando Teresópolis</b></h5>
+                                    <p class="ttt card-text text-dark text-center">Caneca personalizada Trilhando Teresópolis para a melhor parte das trilhas, 
+                                            o <b>café</b> nas montanhas! <br> Por apenas R$ 14,90</p>
+                                    <p class="ttt card-footer text-center">
+                                        <a class="text-primary font-weight-bolder" href="formulario.html">Veja Aqui</a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
         </p>
 
         <hr>

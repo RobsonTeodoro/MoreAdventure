@@ -19,7 +19,7 @@
     <body>
         <section>
             <header class="container-fluid container-md">
-                <div class="jumbotron-fluid JumboHeadImgIndex">
+                <div class="jumbotron-fluid JumboHeadImgAgenda">
                     <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
                         <a class="navbar-brand" href="index.html">
                             <img src="Imagens/logo2.jpg" alt="Trilhando Teresópolis" width="110px">
@@ -58,6 +58,13 @@
                                             <h6 class="dropdown-divider"></h6>
                                             <a class="nav-link font-weight-bold text-success" href="bateVoltaPNE.html">Bate e Volta PNE <i class="fa fa-wheelchair"></i> </a>
                                         </div>
+                                </li>
+
+                                <li class="nav-item active">
+                                    <a class="nav-link font-weight-bold text-success" href="produtos.html">
+                                        <i class="fa fa-shopping-cart"></i>
+                                            Compras
+                                    </a>                                    
                                 </li>
 
                                 <li class="nav-item active">
@@ -100,39 +107,57 @@
             </header>    
         </section>
 
-        <p>
-            <div class="container-fluid container-md">
-                <nav>
-                    <ul>
-                        <li>
-                            Nossos produtos
-                            <ul>
-                                <li><a href="canecas.html">Canecas</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+        <div class="container container-fluid container-md">
+            <h3 class="text-white text-center font-weight-bold bg-success">
+                SESSÃO DE COMPRAS - AGENDAS
+            </h3>
+        </div>
+
+        <section>
+            <p>
+                <div class="container-fluid container-md dropdown">
+                    <nav>
+                        <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" 
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Produtos
+                        </a>
+                
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <h6 class="dropdown-header">Produtos</h6>
+                            <a class="dropdown-item text-success font-weight-bold" href="produtos.html">Produtos</a>
+                            <a class="dropdown-item text-success font-weight-bold disabled" href="agendas.html">Agendas</a>
+                            <a class="dropdown-item text-success font-weight-bold" href="canecas.html">Canecas</a>
+                        </div>
+                    </nav>
+                </div>
+            </p>
+        </section>
     
-            <div class="container-fluid container-md">
+        <section>
+        <div>
+            <div class="container container-fluid container-md">
                 <div class="row">
-                    <div class="col-3">
-                        <div class="card border bg-info">
-                            <img src="Imagens/agenda.jpg" alt="agenda" class="card-img-top">
+                    <div class="col-sm-3">
+                        <div class="card border border-warning bg-warning">
+                            <img src="Imagens/agenda.jpg" class="img-fluid card-img-top">
                             <div class="card-body">
-                                <h5 class="card-title text-center"><b>Agenda More Adventure</b></h5>
-                                <p class="card-text">
-                                    Agende suas trilhas com nossa agenda More Adventure
+                                <h5 class="card-title text-center">
+                                    <b>Agenda Trilhando Teresópolis</b>
+                                </h5>
+                                <p class="ttt card-text text-center">
+                                    Deixe suas aventuras organizadas com nossas agendas Trilhando Teresópolis!
+                                    <br> Por apenas R$ 21,90
                                 </p>
-                                <p class="card-footer text-center">
-                                    Por apenas R$ 7,90
+                                <p class="ttt card-footer text-md-center">
+                                    <a class="text-success font-weight-bolder" href="agendas.html">Veja</a>
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </p>
+        </div>
+    </section>
 
         <hr>
 
