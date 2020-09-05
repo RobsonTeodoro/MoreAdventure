@@ -212,6 +212,14 @@ html{
     background-repeat: no-repeat;
     padding: 190px;
 }
+
+.JumboHeadImgCamisas{
+    background-image: url(Imagens/sacristia6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 190px;
+}
   
 *{
     box-sizing: border-box;
