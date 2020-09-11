@@ -270,6 +270,7 @@ p:not(.ttt){
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 .card .card-image{
     overflow: hidden;
