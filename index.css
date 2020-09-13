@@ -225,6 +225,7 @@ html{
     box-sizing: border-box;
 }
 
+
 #containere{
     width: 400px;
     height: 300px;
@@ -244,7 +245,7 @@ html{
     margin-bottom: 30px; 
   }
 
-  input:not(.dist) {
+  #containere input:not(.dist) {
     height: 40px;
     width: 80%;
     font-size: 18px;
@@ -256,11 +257,11 @@ html{
     background-position: 10px;
   }
 
-  input.email{
+  #containere input.email{
       background-image: url(Imagens/icone-usuario.png);
   }
 
-  input.senha{
+  #containere input.senha{
     background-image: url(Imagens/icone-cadeado.png);
 }
 
@@ -284,59 +285,13 @@ p:not(.ttt){
 
 .card{
     margin-top: 10px;
-    position: relative;
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 4 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-
-.card .card-content {
-    padding: 10px;    
-}
-
-.card .card-content .card-title, .card-reveal .card-title{
-    font-size: 24px;
-    font-weight: 200;    
-}
-
-.card .card-action{
-    padding: 20px;
-    border-top: 1px solid rgba(160, 160, 160, 0.2);
-}
-.card .card-action a{
-    font-size: 15px;
-    color: #ffab40;
-    text-transform:uppercase;
-    margin-right: 20px;    
-    -webkit-transition: color 0.3s ease;
-    -moz-transition: color 0.3s ease;
-    -o-transition: color 0.3s ease;
-    -ms-transition: color 0.3s ease;
-    transition: color 0.3s ease;
-}
-.card .card-action a:hover{    
-    color:#ffd8a6;
-    text-decoration:none;
-}
-
-.card .card-reveal{    
-    padding: 20px;
     position: absolute;
-    background-color: #FFF;
-    width: 100%;
-    overflow-y: auto;
-    /*top: 0;*/
-    left:0;
-    bottom:0;
-    height: 100%;
-    z-index: 1;
-    display: none;    
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 4 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-.card .card-reveal p{
-    color: rgba(0, 0, 0, 0.71);
-    margin:20px ;
-}
+
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
@@ -348,25 +303,21 @@ p:not(.ttt){
     font-size:18px;
 }
 
-.row:not(.sss) {
+.row:not(#rodape) {
     display: flex;
     flex-wrap: wrap;
  }
  
- .row:not(.sss) > div[class*='col-'] {
-   display: flex;
+ .row:not(#rodape) > div[class*='col-'] {
+   display: grid;
  }
 
 footer {
     clear: both;
 }
 
-footer .container {
+footer #rodape {
     position: relative;
-}
-
-footer .container p {
-    text-align: center;
 }
 
 /*.navbar a:hover{
@@ -376,6 +327,13 @@ footer .container p {
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
+}
+
+.teste{  
+    width: 90%;
+    max-width: 980px;
+
+    margin: 40px auto; 
 }
 
 @media only screen and (max-width: 768px) {
