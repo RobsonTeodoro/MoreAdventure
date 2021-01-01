@@ -3,11 +3,16 @@ html {
 }
 
 .JumboHeadImgIndex {
-  background-image: url(Imagens/Capas/sacristia4.jpg);
-  background-size: cover; /*contain*/
+  background-image: url(Imagens/Capas/sacristia1.jpg);
+  background-size: contain; /**/
   background-position: center;
   background-repeat: no-repeat;
   padding: 190px;
+
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
 }
 
 .JumboHeadImgEvent {
@@ -402,7 +407,7 @@ footer #rodape {
   }
 
   #niver2{
-    height: 447px;;
+    height: 447px;
   }
 
   /*#niver{
