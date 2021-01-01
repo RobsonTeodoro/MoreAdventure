@@ -387,6 +387,10 @@ footer #rodape {
   margin: 20px auto;
 }
 
+#niver2{
+  height: 290px;;
+}
+
 @media only screen and (max-width: 768px) {
   .JumboHeadImg {
     width: auto;
@@ -395,6 +399,10 @@ footer #rodape {
   .container {
     width: 96px;
     text-align: center;
+  }
+
+  #niver2{
+    height: 384px;;
   }
 
   /*#niver{
