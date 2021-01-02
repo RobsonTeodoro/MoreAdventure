@@ -144,7 +144,7 @@
 
         <section>
             <div class="container-md container-fluid">
-                <button class="btn btn-success" onclick="document.location='formulario.html'">Comprar</button>
+                <button class="btn btn-success" onclick="document.location='formulario.html'" disabled>Comprar</button>
             </div>
         </section>
 
@@ -201,7 +201,7 @@
                                         <i class="fa fa-hourglass-half text-danger"></i>
                                             VAGAS: 5 <br>
                                             <!--<a class="btn btn-success" href="formulario.html">Comprar</a>-->
-                                            <button class="btn btn-success" onclick="document.location='formulario.html'">Comprar</button>
+                                            <button class="btn btn-success" onclick="document.location='formulario.html'" disabled>Comprar</button>
                                     </li>        
                                 </ul>                            
                             </ul>
@@ -221,21 +221,15 @@
               </div>            
         </section>-->
 
-        <section>
+        <!--<section>
           <div class="container-md container-fluid" >
             <p>
               Gostou da trilha?
               Compre apertando o botão abaixo e venha conosco!
             </p>
           </div>
-        </section>
-
-        <section>
-            <div class="container-md container-fluid">
-                <button class="btn btn-success" onclick="document.location='formulario.html'">Comprar</button>
-            </div>
-        </section>
-        
+        </section>-->
+               
         <!--<section>
             <div class="container-md container-fluid">
                 INICIO FORMULARIO BOTAO PAGSEGURO
@@ -249,10 +243,11 @@
             </div>
         </section>-->
 
+        <br>
         <hr>
 
         <section>
-            <footer class="page-footer container-fluid container-md text-center">
+            <footer class="container-fluid container-md text-center">
                 <div class="container-fluid container-md bg-white">
                     <p>                        
                         <div class="row" id="rodape">
@@ -341,28 +336,6 @@
                             </div>
                             <script src="js/jquery.js"></script>
                             <script src="js/bootstrap.bundle.min.js"></script>
-
-                            <script>
-                                new Vue({
-                                  el: '#app',
-                                  data:{
-                                      linkHtml:'<a class="nav-link font-weight-bold text-success" href="sobre.html"><i class="fa fa-male"></i>Sobre Nós</a>',
-                                  },
-
-                                  el:'#pne',
-                                  data:{
-                                    //linkHtml2:'<a class="nav-link font-weight-bold text-success" href="dicas.html"><i class="fa fa-lightbulb-o"></i>Dicas</a>',
-                                      linkHtml3:'<a class="nav-link font-weight-bold text-success" href="pnePrincipal.html"><i class="fa fa-wheelchair font-weight-bold"></i>PNE</a>'
-                                  },
-                                  methods:{
-                                    saudacao: function(){
-                                      this.titulo = 'Bom dia!'
-                                      return this.titulo
-                                    }        
-                                  }
-                              })
-                              </script>
-
 
                         </div>
                     </p>

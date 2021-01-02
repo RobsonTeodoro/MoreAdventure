@@ -12,7 +12,23 @@ html {
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100% 100%;
+    background-size: 100% 120%;
+}
+
+.JumboHeadImgGuias {
+  background-image: url(Imagens/Capas/travessia12.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgAvent {
+  background-image: url(Imagens/Capas/travessia7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
 }
 
 .JumboHeadImgEvent {
@@ -39,8 +55,16 @@ html {
   padding: 190px;
 }
 
-.JumboHeadImgGuias {
-  background-image: url(Imagens/Capas/travessia12.jpg);
+.JumboHeadImgbateVolta {
+  background-image: url(Imagens/Capas/travessia3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgbateVoltaPNE {
+  background-image: url(Imagens/Capas/telegrafo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -159,40 +183,8 @@ html {
   padding: 190px;
 }
 
-.JumboHeadImgSobre {
-  background-image: url(Imagens/Capas/tartaruga3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
 .JumboHeadImgAgenda {
   background-image: url(Imagens/Capas/bandeira3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
-.JumboHeadImgAvent {
-  background-image: url(Imagens/Capas/travessia7.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
-.JumboHeadImgbateVolta {
-  background-image: url(Imagens/Capas/travessia3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
-.JumboHeadImgbateVoltaPNE {
-  background-image: url(Imagens/Capas/telegrafo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,16 +199,16 @@ html {
   padding: 190px;
 }
 
-.JumboHeadImg {
-  background-image: url(Imagens/Capas/travessia4.jpg);
+.JumboHeadImgCamisas {
+  background-image: url(Imagens/Capas/sacristia6.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 190px;
 }
 
-.JumboHeadImgForm {
-  background-image: url(Imagens/Capas/capim2.jpg);
+.JumboHeadImgDica{
+  background-image: url(Imagens/Capas/travessia4.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -231,13 +223,23 @@ html {
   padding: 190px;
 }
 
-.JumboHeadImgCamisas {
-  background-image: url(Imagens/Capas/sacristia6.jpg);
+.JumboHeadImgSobre {
+  background-image: url(Imagens/Capas/tartaruga3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 190px;
 }
+
+.JumboHeadImgForm {
+  background-image: url(Imagens/Capas/capim2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+
 
 * {
   box-sizing: border-box;
@@ -394,6 +396,14 @@ footer #rodape {
 
 #niver2{
   height: 290px;;
+}
+
+.page-footer{
+  color: #fff;
+}
+
+.slide{
+  color: #fff;
 }
 
 @media only screen and (max-width: 768px) {
