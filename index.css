@@ -10,9 +10,9 @@ html {
   padding: 190px;
 
   -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 100% 120%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 130%;
 }
 
 .JumboHeadImgGuias {
@@ -417,7 +417,7 @@ footer #rodape {
   }
 
   #niver2{
-    height: 427px;
+    height: 427x;
   }
 
   /*#niver{
