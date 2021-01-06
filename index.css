@@ -399,17 +399,22 @@ footer #rodape {
 }
 
 .page-footer{
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .slide{
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
-  /*.JumboHeadImg {
-    width: auto;
-  }*/
+.home{
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .JumboHeadImgIndex {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+  }
 
   .container {
     width: 96px;
