@@ -8,6 +8,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   padding: 190px;
+  object-fit: cover;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -410,11 +411,11 @@ footer #rodape {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .JumboHeadImgIndex {
     width: 100%;
     height: auto;
-    flex: 50%;
+    object-fit: cover;
   }
 
   .container {
@@ -423,13 +424,8 @@ footer #rodape {
   }
 
   #niver2{
-    height: 427px;
+    height: 397px;
   }
-
-  /*#niver{
-      width: 50px;
-      height: auto;
-    }*/
 
   .home {
     margin-bottom: 5px;
