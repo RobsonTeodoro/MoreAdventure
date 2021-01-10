@@ -240,8 +240,6 @@ html {
   padding: 190px;
 }
 
-
-
 * {
   box-sizing: border-box;
 }
@@ -390,8 +388,8 @@ footer #rodape {
 }
 
 .teste {
-  width: 100%;
-  max-width: 980px;
+  /*width: 100%;
+  max-width: 980px;*/
   margin: 20px auto;
 }
 
