@@ -16,6 +16,20 @@ html {
   background-size: 100% 115%;
 }
 
+.JumboHeadImgCargueira {
+  background-image: url(Imagens/Capas/travessiaGarrafao.jpg);
+  background-size: contain; /**/
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+  object-fit: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 140%;
+}
+
 .JumboHeadImgGuias {
   background-image: url(Imagens/Capas/travessia12.jpg);
   background-size: cover;
@@ -336,6 +350,22 @@ html {
 
 #containere input.senha {
   background-image: url(Imagens/icone-cadeado.png);
+}
+
+.vamosver{
+  margin-top: 35px;
+  margin-bottom: 30px;
+  text-indent: 15px;
+}
+
+.cargueira{
+  margin-top: 20px;
+  margin-bottom: -15px;
+  text-indent: 15px;
+}
+
+.identa{
+  text-indent: 15px;
 }
 
 p:not(.ttt) {

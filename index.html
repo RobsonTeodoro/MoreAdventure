@@ -12,6 +12,10 @@
         <link rel="stylesheet" href="css/bootstrap-reboot.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
+        <meta name="author" content="Robson Teodoro Rodrigues da Silva">
+        <meta name="description" content="Trilhando Teresópolis, sua aventura começa aqui">
+        <meta name="robots" content="index, follow">
+
         <link rel="icon" href="Imagens/logo2.jpg">
 
         <title>Trilhando Teresópolis</title>
@@ -19,7 +23,6 @@
     </head>
 
     <body onload="carregar()">
-        <section>
             <header class="container-fluid container-md">
                 <div class="jumbotron-fluid container-fluid JumboHeadImgIndex">
                     <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
@@ -75,13 +78,6 @@
                                         </div>
                                 </li>
 
-                                <!--<li class="nav-item active">
-                                    <a class="nav-link font-weight-bold text-success" href="produtos.html">
-                                        <i class="fa fa-shopping-cart"></i>
-                                            Compras
-                                    </a>                                    
-                                </li>-->
-
                                 <li class="nav-item active">
                                     <a class="nav-link font-weight-bold text-success" href="noticiasPrincipal.html">
                                         <i class="fa fa-newspaper-o"></i>
@@ -120,7 +116,7 @@
                     </nav>
                 </div>
             </header>    
-        </section>
+
 
         <div class="container-fluid container-md">
             <h3 class="text-light text-center font-weight-bolder bg-success">
@@ -212,12 +208,14 @@
                     
                     <div class="col-md-3">
                         <div class="card border border-success bg-success">
-                            <img src="Imagens/caixa1.jpg" class="card-img-top">
+                            <a href="dicas.html">
+                                <img src="Imagens/guapi.jpg" class="card-img-top">
+                            </a>
                             <div class="card-body">
-                                <h5 class="card-title text-md-center"><b>Convide seus amigos</b></h5>
-                                <p class="ttt card-text text-md-center">Junte os seus amigos e faça uma viagem com a gente</p>
+                                <h5 class="card-title text-md-center"><b>Dicas</b></h5>
+                                <p class="ttt card-text text-md-center">Siga aqui as nossas melhores dicas para sua trilha</p>
                                 <p class="ttt card-footer text-md-center">
-                                    <a class="text-warning font-weight-bolder" href="#">Ainda em construção</a>
+                                    <a class="text-warning font-weight-bolder" href="dicas.html">Confira</a>
                                 </p>
                             </div>
                         </div>
@@ -226,7 +224,7 @@
                     <p></p>
                     
                     <div class="col-md-3">
-                        <div class="carousel slide" id="imgCarousel" data-ride="carousel" data-wrap="true" data-interval="4000">
+                        <div class="carousel slide" id="imgCarousel" data-ride="carousel" data-wrap="true" data-interval="4000" >
                             <!--<ol class="carousel-indicators">
                                 <li data-target="#imgCarousel" data-slide-to="0" class="active"></li>
                                 <li data-target="#imgCarousel" data-slide-to="1"></li>
@@ -524,18 +522,17 @@
                                         <p>
                                             <img src="Imagens/cartao.png" alt="">
                                         </p>
+
+                                        <p>
+                                            <img src="Imagens/picpay.png" alt="">
+                                        </p>
                                     </li>
                                 </ul>
                             </div>
                             <script src="js/jquery.js"></script>
                             <script src="js/bootstrap.bundle.min.js"></script>
                             <script src="scripts.js"></script>
-                            <!--<script>
-                                function myFunction(){
-                                    var element = document.body;
-                                    element.classList.toggle("dark-mode")
-                                }
-                            </script>-->
+                            
                         </div>
                     </p>
                 </div>
