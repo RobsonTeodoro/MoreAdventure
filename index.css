@@ -268,7 +268,7 @@ html {
 }
 
 .container.gallery-container {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   color: rgb(6, 126, 6);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 }
@@ -396,10 +396,6 @@ p:not(.ttt) {
   box-shadow: 4 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-.btn-custom {
-  background-color: transparent;
-  font-size: 18px;
-}
 
 .row:not(#rodape) {
   display: flex;
