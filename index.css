@@ -16,30 +16,16 @@ html {
   background-size: 100% 115%;
 }
 
-.JumboHeadImgCargueira {
-  background-image: url(Imagens/Capas/travessiaGarrafao.jpg);
-  background-size: contain; /**/
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-  object-fit: cover;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100% 140%;
-}
-
-.JumboHeadImgGuias {
-  background-image: url(Imagens/Capas/travessia12.jpg);
+.JumboHeadImgAvent {
+  background-image: url(Imagens/Capas/travessia7.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 190px;
 }
 
-.JumboHeadImgAvent {
-  background-image: url(Imagens/Capas/travessia7.jpg);
+.JumboHeadImgGuias {
+  background-image: url(Imagens/Capas/travessia12.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,40 +72,32 @@ html {
   padding: 190px;
 }
 
-.JumboHeadImgInic {
-  background-image: url(Imagens/Capas/Arpoador.jpg);
+.JumboHeadImgProd {
+  background-image: url(Imagens/Capas/telegrafo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 190px;
 }
 
-.JumboHeadImgPNEPrinc {
-  background-image: url(Imagens/Capas/cadjuliete.jpg);
+.JumboHeadImgAgenda {
+  background-image: url(Imagens/Capas/bandeira3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 190px;
 }
 
-.JumboHeadImgPNE1 {
-  background-image: url(Imagens/Capas/papagaio.jpg);
+.JumboHeadImgCanecas {
+  background-image: url(Imagens/Capas/bandeira3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 190px;
 }
 
-.JumboHeadImgPNE2 {
-  background-image: url(Imagens/Capas/elefante.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
-.JumboHeadImgPNE3 {
-  background-image: url(Imagens/Capas/capim.jpg);
+.JumboHeadImgCamisas {
+  background-image: url(Imagens/Capas/sacristia6.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -158,6 +136,76 @@ html {
   padding: 190px;
 }
 
+.JumboHeadImgPNEPrinc {
+  background-image: url(Imagens/Capas/cadjuliete.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgPNE1 {
+  background-image: url(Imagens/Capas/papagaio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgPNE2 {
+  background-image: url(Imagens/Capas/elefante.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgPNE3 {
+  background-image: url(Imagens/Capas/capim.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgDica{
+  background-image: url(Imagens/Capas/travessia4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgCargueira {
+  background-image: url(Imagens/Capas/travessiaGarrafao.jpg);
+  background-size: contain; /**/
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+  object-fit: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 140%;
+}
+
+.JumboHeadImgInic {
+  background-image: url(Imagens/Capas/Arpoador.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgSobre {
+  background-image: url(Imagens/Capas/tartaruga3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
 .JumboHeadParc {
   background-image: url(Imagens/Capas/caete.jpg);
   background-size: cover;
@@ -184,62 +232,6 @@ html {
 
 .JumboHeadImgPiTij2 {
   background-image: url(Imagens/Capas/tijuca3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
-.JumboHeadImgProd {
-  background-image: url(Imagens/Capas/telegrafo.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
-.JumboHeadImgAgenda {
-  background-image: url(Imagens/Capas/bandeira3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
-.JumboHeadImgCanecas {
-  background-image: url(Imagens/Capas/bandeira3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
-.JumboHeadImgCamisas {
-  background-image: url(Imagens/Capas/sacristia6.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
-.JumboHeadImgDica{
-  background-image: url(Imagens/Capas/travessia4.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
-.JumboHeadImgbateVoltaPNE {
-  background-image: url(Imagens/Capas/telegrafo.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
-.JumboHeadImgSobre {
-  background-image: url(Imagens/Capas/tartaruga3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -420,10 +412,6 @@ footer #rodape {
   margin: 20px auto;
 }
 
-#niver2{
-  height: 295px;
-}
-
 .page-footer{
   color: rgb(0, 0, 0);
 }
@@ -446,10 +434,6 @@ footer #rodape {
   .container {
     width: 96px;
     text-align: center;
-  }
-
-  #niver2{
-    height: 427px;
   }
 
   .home {
