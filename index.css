@@ -16,6 +16,15 @@ html {
   background-size: 100% 115%;
 }
 
+
+.JumboHeadImgFotoMes {
+  background-image: url(Imagens/Capas/medanha.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
 .JumboHeadImgAvent {
   background-image: url(Imagens/Capas/travessia7.jpg);
   background-size: cover;

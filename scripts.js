@@ -19,7 +19,7 @@ function carregar() {
   } else if (hora >= 12 && hora < 18) {
     //boa tarde
     msg.innerHTML = `<rtrs style="color: green;"> <strong>Boa tarde! São ${hora} hora(s) e ${minuto} minutos!</strong></rtrs> <br> Clique <a href="#enviar">aqui</a> e venha trilhar com a gente!`
-    img.src = "Imagens/Produtos/caneca.jpg";
+    img.src = "Imagens/Produtos/caneca2.jpg";
     
   } else {
     //boa noite
