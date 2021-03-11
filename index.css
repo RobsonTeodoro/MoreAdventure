@@ -16,7 +16,6 @@ html {
   background-size: 100% 115%;
 }
 
-
 .JumboHeadImgFotoMes {
   background-image: url(Imagens/Capas/medanha.jpg);
   background-size: cover;
@@ -75,6 +74,14 @@ html {
 
 .JumboHeadImgbateVoltaPNE {
   background-image: url(Imagens/Capas/tijuca4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgParaElas {
+  background-image: url(Imagens/Capas/elas.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
