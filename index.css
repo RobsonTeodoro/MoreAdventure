@@ -7,7 +7,7 @@ html {
   background-size: contain; /**/
   background-position: center;
   background-repeat: no-repeat;
-  padding: 190px;
+  padding: 210px;
   object-fit: cover;
 
   -webkit-background-size: cover;
@@ -82,10 +82,16 @@ html {
 
 .JumboHeadImgParaElas {
   background-image: url(Imagens/Capas/elas.jpg);
-  background-size: cover;
+  background-size: contain; /**/
   background-position: center;
   background-repeat: no-repeat;
-  padding: 190px;
+  padding: 210px;
+  object-fit: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 190%;
 }
 
 .JumboHeadImgProd {
@@ -452,6 +458,34 @@ footer #rodape {
     height: auto;
     object-fit: cover;
   }
+
+  .JumboHeadImgIndex {
+    background-image: url(Imagens/Capas/sacristia1.jpg);
+    background-size: contain; /**/
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 175px;
+    object-fit: cover;
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+  }
+
+  .JumboHeadImgParaElas {
+  background-image: url(Imagens/Capas/elas.jpg);
+  background-size: contain; /**/
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+  object-fit: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 110% 100%;
+}
 
   .container {
     width: 96px;
