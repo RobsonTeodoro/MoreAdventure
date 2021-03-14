@@ -2,9 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-.JumboHeadImgIndex {
+/*.JumboHeadImgIndex {
   background-image: url(Imagens/Capas/sacristia1.jpg);
-  background-size: contain; /**/
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 210px;
@@ -14,6 +14,20 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100% 115%;
+}*/
+
+.JumboHeadImgIndex {
+  background-image: url(Imagens/Capas/caete2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 220px;
+  object-fit: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
 }
 
 .JumboHeadImgFotoMes {
@@ -82,7 +96,7 @@ html {
 
 .JumboHeadImgParaElas {
   background-image: url(Imagens/Capas/elas.jpg);
-  background-size: contain; /**/
+  background-size: cover; /**/
   background-position: center;
   background-repeat: no-repeat;
   padding: 210px;
@@ -459,9 +473,9 @@ footer #rodape {
     object-fit: cover;
   }
 
-  .JumboHeadImgIndex {
+  /*.JumboHeadImgIndex {
     background-image: url(Imagens/Capas/sacristia1.jpg);
-    background-size: contain; /**/
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     padding: 175px;
@@ -471,6 +485,22 @@ footer #rodape {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: 100% 100%;
+  }*/
+
+
+
+  .JumboHeadImgIndex {
+    background-image: url(Imagens/Capas/caete2.jpg);
+    background-size: cover; /**/
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 160px;
+    object-fit: cover;
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 90%;
   }
 
   .JumboHeadImgParaElas {
@@ -485,6 +515,11 @@ footer #rodape {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 110% 100%;
+}
+
+.banner{
+  margin-top: -20px;
+  
 }
 
   .container {
