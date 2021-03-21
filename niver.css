@@ -13,6 +13,8 @@
   height: 50%;
 }
 
+
+
 @media only screen and (max-width: 600px) {
   .JumboHeadImgIndex {
     width: 100%;
@@ -26,7 +28,7 @@
   }
 
   #niver2{
-    height: 520px;
+    height: 430px;
   }
 }
 
@@ -40,6 +42,7 @@
   .cardNiver {
     width: 100%;
   }
+
 }
 
 
