@@ -44,7 +44,7 @@ function tela(){
   var hora = dataHora.getHours();
 
   if (hora >= 6 && hora < 18){
-    cb.innerHTML = `<h3 class="text-center text-white font-weight-bolder" style="background-color: rgb(231, 24, 162);">
+    cb.innerHTML = `<h3 class="text-center text-white font-weight-bolder" style="background-color: rgba(204, 7, 116, 0.89);">
                         Eventos Para Mulheres
                     </h3>`;
   }else{
@@ -54,7 +54,7 @@ function tela(){
   }
 
   if (hora >= 6 && hora < 18){
-    parag.innerHTML = `<h3 class="font-weight-bold" style="color: rgb(231, 24, 162);">
+    parag.innerHTML = `<h3 class="font-weight-bold" style="color: rgba(204, 7, 116, 0.89);">
                           Próximo Evento Para Mulheres
                        </h3>`
   }
@@ -65,7 +65,7 @@ function tela(){
   }
 
   if (hora >= 6 && hora < 18){
-    clic.innerHTML = `<p style="color:rgb(231, 24, 162);">
+    clic.innerHTML = `<p style="color:rgba(204, 7, 116, 0.89);">
                           Clique aqui e agende sua trilha com a gente!
                       </p>`
   }
@@ -78,7 +78,7 @@ function tela(){
   if(hora >= 6 && hora < 18){
     event.innerHTML = `<p>    
                           <div class="dropdown">
-                              <button onclick="myFunction()" class="dropbtn" style="background-color: rgb(231, 24, 162);">Eventos</button>
+                              <button onclick="myFunction()" class="dropbtn" style="background-color: rgba(204, 7, 116, 0.89);">Eventos</button>
                               <div id="myDropdown" class="dropdown-content">
                                   <a class="font-weight-bold text-success" href="eventos.html">Todos os Eventos</a>
                                   <a class="font-weight-bold text-success" href="bateVolta.html">Bate e Volta</a>
@@ -110,7 +110,7 @@ function tela(){
   }
 
   if (hora >= 6 && hora < 18){
-    card.innerHTML = `<div class=" card border w3-animate-bottom" style="background-color: rgb(231, 24, 162); color: white">
+    card.innerHTML = `<div class=" card border w3-animate-bottom" style="background-color: rgba(204, 7, 116, 0.89); color: white">
                         <a href="picoTijuca3ParaElas.html">
                             <img src="Imagens/Aventuras/tijuca2.jpg" alt="Pico da Tijuca" class="card-img-top"></a>
                         <div class="card-body">
@@ -137,7 +137,7 @@ function tela(){
   }
 
   if(hora >= 6 && hora < 18){
-    mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgb(231, 24, 162); color: white; font-weight: bold;">Clique Aqui</a>`
+    mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(204, 7, 116, 0.89); color: white; font-weight: bold;">Clique Aqui</a>`
   }else{
     mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(128, 8, 226, 0.979); color: white; font-weight: bold;">Clique Aqui</a>`
   }
@@ -160,7 +160,7 @@ function pico(){
   var hora = dataHora.getHours();
 
   if (hora >= 6 && hora < 18){
-    cba.innerHTML = `<h3 class="text-center text-white font-weight-bolder" style="background-color: rgb(231, 24, 162);">
+    cba.innerHTML = `<h3 class="text-center text-white font-weight-bolder" style="background-color: rgba(204, 7, 116, 0.89);">
                         Pico da Tijuca
                     </h3>`;
   }else{
@@ -170,7 +170,7 @@ function pico(){
   }
 
   if (hora >= 6 && hora < 18){
-    parag.innerHTML = `<h3 class="font-weight-bold" style="color: rgb(231, 24, 162);">
+    parag.innerHTML = `<h3 class="font-weight-bold" style="color: rgba(204, 7, 116, 0.89);">
                           Trilha do Pico da Tijuca – Floresta da Tijuca – RJ
                        </h3>`
   }
@@ -181,7 +181,7 @@ function pico(){
   }
 
   if (hora >= 6 && hora < 18){
-    clic.innerHTML = `<p style="color:rgb(231, 24, 162);">
+    clic.innerHTML = `<p style="color:rgba(204, 7, 116, 0.89);">
                           Clique aqui e agende sua trilha com a gente!
                       </p>`
   }
@@ -194,7 +194,7 @@ function pico(){
   if(hora >= 6 && hora < 18){
     event.innerHTML = `<p>    
                           <div class="dropdown">
-                              <button onclick="myFunction()" class="dropbtn" style="background-color: rgb(231, 24, 162);">Eventos</button>
+                              <button onclick="myFunction()" class="dropbtn" style="background-color: rgba(204, 7, 116, 0.89);">Eventos</button>
                               <div id="myDropdown" class="dropdown-content">
                                   <a class="font-weight-bold text-success" href="eventos.html">Todos os Eventos</a>
                                   <a class="font-weight-bold text-success" href="bateVolta.html">Bate e Volta</a>
@@ -228,7 +228,7 @@ function pico(){
  
 
   if(hora >= 6 && hora < 18){
-    top.innerHTML = `<h6 class="font-weight-bold text-center" style="color:rgb(231, 24, 162);">
+    top.innerHTML = `<h6 class="font-weight-bold text-center" style="color:rgba(204, 7, 116, 0.89);">
                         Topo do Pico da Tijuca
                     </h6>`
   }else{
@@ -238,7 +238,7 @@ function pico(){
   }
 
   if(hora >= 6 && hora < 18){
-    inc.innerHTML = `<strong style="color:rgb(231, 24, 162); font-size: 25px">
+    inc.innerHTML = `<strong style="color:rgba(204, 7, 116, 0.89); font-size: 25px">
                         Serviços Inclusos
                       </strong>`
   }else{
@@ -248,7 +248,7 @@ function pico(){
   }
 
   if(hora >= 6 && hora < 18){
-    mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgb(231, 24, 162); color: white; font-weight: bold;">Clique Aqui</a>`
+    mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(204, 7, 116, 0.89); color: white; font-weight: bold;">Clique Aqui</a>`
   }else{
     mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(128, 8, 226, 0.979); color: white; font-weight: bold;">Clique Aqui</a>`
   }
