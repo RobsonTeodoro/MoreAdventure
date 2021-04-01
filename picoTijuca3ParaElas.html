@@ -24,10 +24,51 @@
         <link rel="icon" href="Imagens/logo3.jpg">
 
         <title>Pico da Tijuca - Trilhando Teresópolis</title>
+
+
+        <style>
+            .dropbtn {
+              color: white;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+            }
+            
+            .dropbtn:hover, .dropbtn:focus {
+              background-color: rgb(167, 11, 115);
+            }
+            
+            .dropdown {
+              position: relative;
+              display: inline-block;
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f1f1f1;
+              min-width: 160px;
+              overflow: auto;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+            .dropdown-content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+            
+            .dropdown a:hover {background-color: #ddd;}
+            
+            .show {display: block;}
+            </style>
         
     </head>
 
-    <body>
+    <body onload="pico()">
         <header class="container-fluid container-md">
             <div class="jumbotron-fluid JumboHeadImgPiTij">
                 <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
@@ -134,9 +175,11 @@
 
         <section>
             <div class="container container-fluid container-md">
-                <h4 class="text-center text-white font-weight-bolder w3-pink">
-                  PICO DA TIJUCA
-                </h4>
+                <span id="cabeca">
+                    <h3 class="text-center text-white font-weight-bolder" style="background-color: rgb(255, 0, 212);">
+                        Pico da Tijuca
+                    </h3>
+                </span>                
             </div>
         </section>
 
@@ -170,38 +213,35 @@
         </section>-->
 
         <section>
-            <p>
-                <div class="container-fluid container-md dropdown">
-                    <nav>
-                        <a class="btn w3-pink dropdown-toggle" href="#" role="button" id="dropdownMenuLink" 
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Eventos
-                        </a>
-                
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <h6 class="dropdown-header">Próximos Eventos</h6>
-                                <a class="dropdown-item text-success font-weight-bold" href="eventos.html">Todos os Eventos</a>
-                                <a class="dropdown-item text-success font-weight-bold" href="bateVolta.html">Eventos Bate e Volta</a>
-                                <a class="dropdown-item text-success font-weight-bold" href="feriados.html">Eventos Feriados</a>
-                                <a class="dropdown-item text-success font-weight-bold" href="fds.html">Eventos Finais de Semana</a>
+            <div class="container container-fluid">
+                <span id="eventos">
+                    <p>    
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn" style="background-color: rgb(231, 24, 162);">Eventos</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a class="font-weight-bold text-success" href="eventos.html">Todos os Eventos</a>
+                                <a class="font-weight-bold text-success" href="bateVolta.html">Bate e Volta</a>
+                                <a class="font-weight-bold text-success" href="feriados.html">Feriados</a>
+                                <a class="font-weight-bold text-success" href="fds.html">Finais de Semana</a>
                                 <h6 class="dropdown-divider"></h6>
-                            <h6 class="dropdown-header">Próximos Eventos PNE</h6>
-                                <a class="dropdown-item text-success font-weight-bold" href="bateVoltaPNE.html">Eventos PNE</a>
-                            <h6 class="dropdown-divider"></h6>
-                            <h6 class="dropdown-header">Eventos Para Elas</h6>
-                                <a class="dropdown-item w3-text-pink font-weight-bold" href="paraElas.html">Para Elas</a>
+                                <a class="font-weight-bold text-success" href="bateVoltaPNE.html">Bate e Volta PNE <i class="fa fa-wheelchair"></i> </a>
+                                <h6 class="dropdown-divider"></h6>
+                                <a class="font-weight-bold w3-text-pink" href="paraElas.html" >Para Elas</a>
+                            </div>
                         </div>
-                    </nav>
-                </div>
-            </p>
+                    </p>
+                </span>
+            </div>
         </section>
 
         <section>
             <p>
                 <div class="container-fluid container-md">
-                    <h3 class="font-weight-bold w3-text-pink">
-                        Trilha do Pico da Tijuca – Floresta da Tijuca – RJ
-                    </h3>
+                    <span id="paragraph">
+                        <h3 class="font-weight-bold" style="color:rgba(233, 35, 200, 0.829);">
+                            Trilha do Pico da Tijuca – Floresta da Tijuca – RJ
+                        </h3>
+                    </span>
         
                     <p class="ttt">
                         <span>
@@ -223,19 +263,23 @@
                         </p>
 
                         <p>
-                          <h6 class="font-weight-bold text-center w3-text-pink">
-                            Topo do Pico da Tijuca
-                          </h6>
+                          <span id="topo">
+                            <h6 class="font-weight-bold text-center" style="color:rgb(231, 24, 162);">
+                                <!--Topo do Pico da Tijuca-->
+                              </h6>
+                          </span>
                         </p>
 
                         <br>
                         
-                        <p>
-                            <h4 class="w3-text-pink">
-                                <strong>Serviços Inclusos</strong>
+                        <span id="incluso">
+                            <h4>
+                                <strong style="color:rgb(231, 24, 162); font-size: 12px">
+                                    Serviços Inclusos
+                                  </strong>
                             </h4>
-                        </p>
-
+                        </span>                   
+                            
                         <section>
                             🚌 Transporte
                             <br><br>
@@ -285,12 +329,18 @@
 
                         <section>
                             <p>
-                                <div id="enviar" class="w3-text-pink container-fluid container-md font-weight-bold">
-                                    <p>Clique aqui e agende sua trilha com a gente!</p>
-                                    <a class="btn w3-pink btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank">Clique Aqui</a>
+                                <div id="enviar" class="container-fluid container-md font-weight-bold">
+                                    <span id="clica">
+                                        <p style="color:rgba(233, 35, 200, 0.829);">
+                                            Clique aqui e agende sua trilha com a gente!
+                                        </p>
+                                    </span>
+                                    <span id="sendMail">
+                                        <a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgb(255, 0, 212); color: white; font-weight: bold;">Clique Aqui</a>
+                                    </span>
                                 </div>
                             </p>
-                        </section>
+                        </section> 
 
                     </div>
                 </div>
@@ -503,6 +553,28 @@
                             <script src="js/jquery.js"></script>
                             <script src="js/bootstrap.bundle.min.js"></script>
                             <script src="scripts.js"></script>
+
+                            <script>
+                                /* When the user clicks on the button, 
+                                toggle between hiding and showing the dropdown content */
+                                function myFunction() {
+                                  document.getElementById("myDropdown").classList.toggle("show");
+                                }
+                                
+                                // Close the dropdown if the user clicks outside of it
+                                window.onclick = function(event) {
+                                  if (!event.target.matches('.dropbtn')) {
+                                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                                    var i;
+                                    for (i = 0; i < dropdowns.length; i++) {
+                                      var openDropdown = dropdowns[i];
+                                      if (openDropdown.classList.contains('show')) {
+                                        openDropdown.classList.remove('show');
+                                      }
+                                    }
+                                  }
+                                }
+                                </script>
                             
                         </div>
                     </p>

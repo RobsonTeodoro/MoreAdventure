@@ -44,7 +44,7 @@ function tela(){
   var hora = dataHora.getHours();
 
   if (hora >= 6 && hora < 18){
-    cb.innerHTML = `<h3 class="text-center text-white font-weight-bolder" style="background-color: rgb(255, 0, 212);">
+    cb.innerHTML = `<h3 class="text-center text-white font-weight-bolder" style="background-color: rgb(231, 24, 162);">
                         Eventos Para Mulheres
                     </h3>`;
   }else{
@@ -54,7 +54,7 @@ function tela(){
   }
 
   if (hora >= 6 && hora < 18){
-    parag.innerHTML = `<h3 class="font-weight-bold" style="color: rgb(255, 0, 212);">
+    parag.innerHTML = `<h3 class="font-weight-bold" style="color: rgb(231, 24, 162);">
                           Próximo Evento Para Mulheres
                        </h3>`
   }
@@ -65,7 +65,7 @@ function tela(){
   }
 
   if (hora >= 6 && hora < 18){
-    clic.innerHTML = `<p style="color:rgb(255, 0, 212);">
+    clic.innerHTML = `<p style="color:rgb(231, 24, 162);">
                           Clique aqui e agende sua trilha com a gente!
                       </p>`
   }
@@ -76,21 +76,41 @@ function tela(){
   }
 
   if(hora >= 6 && hora < 18){
-    event.innerHTML = `<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" 
-                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" 
-                          style="background-color: rgb(255, 0, 212); font-weight: bold; color: white" >
-                          Eventos
-                      </a>`
+    event.innerHTML = `<p>    
+                          <div class="dropdown">
+                              <button onclick="myFunction()" class="dropbtn" style="background-color: rgb(231, 24, 162);">Eventos</button>
+                              <div id="myDropdown" class="dropdown-content">
+                                  <a class="font-weight-bold text-success" href="eventos.html">Todos os Eventos</a>
+                                  <a class="font-weight-bold text-success" href="bateVolta.html">Bate e Volta</a>
+                                  <a class="font-weight-bold text-success" href="feriados.html">Feriados</a>
+                                  <a class="font-weight-bold text-success" href="fds.html">Finais de Semana</a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold text-success" href="bateVoltaPNE.html">Bate e Volta PNE <i class="fa fa-wheelchair"></i> </a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold w3-text-pink" href="paraElas.html" >Para Elas</a>
+                              </div>
+                          </div>
+                      </p>`
   }else{
-    event.innerHTML = `<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" 
-                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" 
-                          style="background-color: rgba(128, 8, 226, 0.979); font-weight: bold; color: white" >
-                          Eventos
-                      </a>`
+    event.innerHTML = `<p>    
+                          <div class="dropdown">
+                              <button onclick="myFunction()" class="dropbtn" style="background-color: rgba(128, 8, 226, 0.979);">Eventos</button>
+                              <div id="myDropdown" class="dropdown-content">
+                                  <a class="font-weight-bold text-success" href="eventos.html">Todos os Eventos</a>
+                                  <a class="font-weight-bold text-success" href="bateVolta.html">Bate e Volta</a>
+                                  <a class="font-weight-bold text-success" href="feriados.html">Feriados</a>
+                                  <a class="font-weight-bold text-success" href="fds.html">Finais de Semana</a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold text-success" href="bateVoltaPNE.html">Bate e Volta PNE <i class="fa fa-wheelchair"></i> </a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold w3-text-pink" href="paraElas.html" >Para Elas</a>
+                              </div>
+                          </div>
+                      </p>`
   }
 
   if (hora >= 6 && hora < 18){
-    card.innerHTML = `<div class=" card border w3-animate-bottom" style="background-color: rgb(255, 0, 212); color: white">
+    card.innerHTML = `<div class=" card border w3-animate-bottom" style="background-color: rgb(231, 24, 162); color: white">
                         <a href="picoTijuca3ParaElas.html">
                             <img src="Imagens/Aventuras/tijuca2.jpg" alt="Pico da Tijuca" class="card-img-top"></a>
                         <div class="card-body">
@@ -117,8 +137,123 @@ function tela(){
   }
 
   if(hora >= 6 && hora < 18){
-    mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgb(255, 0, 212); color: white; font-weight: bold;">Clique Aqui</a>`
+    mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgb(231, 24, 162); color: white; font-weight: bold;">Clique Aqui</a>`
   }else{
     mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(128, 8, 226, 0.979); color: white; font-weight: bold;">Clique Aqui</a>`
   }
 }
+
+
+
+
+
+function pico(){
+  var cba = window.document.getElementById("cabeca");
+  var event = window.document.getElementById("eventos");
+  var parag = window.document.getElementById("paragraph");
+  var top = window.document.getElementById("topo");
+  var inc = window.document.getElementById("incluso");
+  var clic = window.document.getElementById("clica");
+  var mail = window.document.getElementById("sendMail");
+
+  var dataHora = new Date();
+  var hora = dataHora.getHours();
+
+  if (hora >= 6 && hora < 18){
+    cba.innerHTML = `<h3 class="text-center text-white font-weight-bolder" style="background-color: rgb(231, 24, 162);">
+                        Pico da Tijuca
+                    </h3>`;
+  }else{
+    cba.innerHTML = `<h3 class="text-center text-white font-weight-bolder" style="background-color: rgba(128, 8, 226, 0.979);">
+                        Pico da Tijuca
+                   </h3>`;
+  }
+
+  if (hora >= 6 && hora < 18){
+    parag.innerHTML = `<h3 class="font-weight-bold" style="color: rgb(231, 24, 162);">
+                          Trilha do Pico da Tijuca – Floresta da Tijuca – RJ
+                       </h3>`
+  }
+  else{
+    parag.innerHTML = `<h3 class="font-weight-bold" style="color: rgba(128, 8, 226, 0.979);">
+                          Trilha do Pico da Tijuca – Floresta da Tijuca – RJ
+                       </h3>`
+  }
+
+  if (hora >= 6 && hora < 18){
+    clic.innerHTML = `<p style="color:rgb(231, 24, 162);">
+                          Clique aqui e agende sua trilha com a gente!
+                      </p>`
+  }
+  else{
+    clic.innerHTML = `<p style="color:rgba(128, 8, 226, 0.979);">
+                          Clique aqui e agende sua trilha com a gente!
+                      </p>`
+  }
+
+  if(hora >= 6 && hora < 18){
+    event.innerHTML = `<p>    
+                          <div class="dropdown">
+                              <button onclick="myFunction()" class="dropbtn" style="background-color: rgb(231, 24, 162);">Eventos</button>
+                              <div id="myDropdown" class="dropdown-content">
+                                  <a class="font-weight-bold text-success" href="eventos.html">Todos os Eventos</a>
+                                  <a class="font-weight-bold text-success" href="bateVolta.html">Bate e Volta</a>
+                                  <a class="font-weight-bold text-success" href="feriados.html">Feriados</a>
+                                  <a class="font-weight-bold text-success" href="fds.html">Finais de Semana</a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold text-success" href="bateVoltaPNE.html">Bate e Volta PNE <i class="fa fa-wheelchair"></i> </a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold w3-text-pink" href="paraElas.html" >Para Elas</a>
+                              </div>
+                          </div>
+                      </p>`
+  }else{
+    event.innerHTML = `<p>    
+                          <div class="dropdown">
+                              <button onclick="myFunction()" class="dropbtn" style="background-color: rgba(128, 8, 226, 0.979);">Eventos</button>
+                              <div id="myDropdown" class="dropdown-content">
+                                  <a class="font-weight-bold text-success" href="eventos.html">Todos os Eventos</a>
+                                  <a class="font-weight-bold text-success" href="bateVolta.html">Bate e Volta</a>
+                                  <a class="font-weight-bold text-success" href="feriados.html">Feriados</a>
+                                  <a class="font-weight-bold text-success" href="fds.html">Finais de Semana</a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold text-success" href="bateVoltaPNE.html">Bate e Volta PNE <i class="fa fa-wheelchair"></i> </a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold w3-text-pink" href="paraElas.html" >Para Elas</a>
+                              </div>
+                          </div>
+                      </p>`
+  }
+
+ 
+
+  if(hora >= 6 && hora < 18){
+    top.innerHTML = `<h6 class="font-weight-bold text-center" style="color:rgb(231, 24, 162);">
+                        Topo do Pico da Tijuca
+                    </h6>`
+  }else{
+    top.innerHTML = `<h6 class="font-weight-bold text-center" style="color:rgba(128, 8, 226, 0.979);">
+                        Topo do Pico da Tijuca
+                    </h6>`
+  }
+
+  if(hora >= 6 && hora < 18){
+    inc.innerHTML = `<strong style="color:rgb(231, 24, 162); font-size: 25px">
+                        Serviços Inclusos
+                      </strong>`
+  }else{
+    inc.innerHTML = `<strong style="color:rgba(128, 8, 226, 0.979); font-size: 25px">
+                        Serviços Inclusos
+                      </strong>`
+  }
+
+  if(hora >= 6 && hora < 18){
+    mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgb(231, 24, 162); color: white; font-weight: bold;">Clique Aqui</a>`
+  }else{
+    mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(128, 8, 226, 0.979); color: white; font-weight: bold;">Clique Aqui</a>`
+  }
+
+  
+}
+
+
