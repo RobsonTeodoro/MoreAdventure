@@ -31,11 +31,12 @@ function carregar() {
   }
 }
 
-
+/*PARA ELAS*/
 function tela(){
   var cb = window.document.getElementById("cabeca");
   var event = window.document.getElementById("eventos");
   var parag = window.document.getElementById("paragraph");
+  var email = window.document.getElementById("email");
   var clic = window.document.getElementById("clica");
   var card = window.document.getElementById("cartao");
   var mail = window.document.getElementById("sendMail");
@@ -62,6 +63,17 @@ function tela(){
     parag.innerHTML = `<h3 class="font-weight-bold" style="color: rgba(128, 8, 226, 0.979);">
                           Próximo Evento Para Mulheres
                        </h3>`
+  }
+
+  if (hora >= 6 && hora < 18){
+    email.innerHTML = `<rtr>
+                          Nos envie um <a href="#enviar" style="color: rgba(204, 7, 116, 0.89);">email</a> e agende sua aventura!
+                       </rtr>`
+  }
+  else{
+    email.innerHTML = `<rtr>
+                          Nos envie um <a href="#enviar" style="color: rgba(128, 8, 226, 0.979);">email</a> e agende sua aventura!
+                       </rtr>`
   }
 
   if (hora >= 6 && hora < 18){
@@ -152,6 +164,7 @@ function pico(){
   var event = window.document.getElementById("eventos");
   var parag = window.document.getElementById("paragraph");
   var top = window.document.getElementById("topo");
+  var email = window.document.getElementById("email");
   var inc = window.document.getElementById("incluso");
   var clic = window.document.getElementById("clica");
   var mail = window.document.getElementById("sendMail");
@@ -179,6 +192,18 @@ function pico(){
                           Trilha do Pico da Tijuca – Floresta da Tijuca – RJ
                        </h3>`
   }
+
+  if (hora >= 6 && hora < 18){
+    email.innerHTML = `<rtr>
+                          Nos envie um <a href="#enviar" style="color: rgba(204, 7, 116, 0.89);">email</a> e agende sua aventura!
+                       </rtr>`
+  }
+  else{
+    email.innerHTML = `<rtr>
+                          Nos envie um <a href="#enviar" style="color: rgba(128, 8, 226, 0.979);">email</a> e agende sua aventura!
+                       </rtr>`
+  }
+  
 
   if (hora >= 6 && hora < 18){
     clic.innerHTML = `<p style="color:rgba(204, 7, 116, 0.89);">

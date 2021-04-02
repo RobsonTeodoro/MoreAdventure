@@ -213,7 +213,7 @@
         </section>-->
 
         <section>
-            <div class="container container-fluid">
+            <div class="container container-fluid container-md w3-left-align">
                 <span id="eventos">
                     <p>    
                         <div class="dropdown">
@@ -244,8 +244,8 @@
                     </span>
         
                     <p class="ttt">
-                        <span>
-                            Nos envie um <a class="w3-text-pink" href="#enviar">email</a> e agende sua aventura!
+                        <span id="email">
+                            <rtr>Nos envie um <a href="#enviar" style="color:rgba(204, 7, 116, 0.89);">email</a> e agende sua aventura!</rtr>
                         </span>
                     </p>
                 </div>
@@ -555,13 +555,12 @@
                             <script src="scripts.js"></script>
 
                             <script>
-                                /* When the user clicks on the button, 
-                                toggle between hiding and showing the dropdown content */
+                                /* ao clicar, abre e fecha o menu */
                                 function myFunction() {
                                   document.getElementById("myDropdown").classList.toggle("show");
                                 }
                                 
-                                // Close the dropdown if the user clicks outside of it
+                                // fechar o menu caso o usuário clicar fora do menu
                                 window.onclick = function(event) {
                                   if (!event.target.matches('.dropbtn')) {
                                     var dropdowns = document.getElementsByClassName("dropdown-content");
