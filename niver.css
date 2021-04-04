@@ -10,7 +10,7 @@
   flex-direction: column;
   overflow: hidden;
 
-  height: 50%;
+  height: 49%;
 }
 
 
@@ -28,7 +28,7 @@
   }
 
   #niver2{
-    height: 520px;
+    height: 430px;
   }
 }
 
