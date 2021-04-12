@@ -13,8 +13,6 @@
   height: 49%;
 }
 
-
-
 @media only screen and (max-width: 600px) {
   .JumboHeadImgIndex {
     width: 100%;
@@ -28,7 +26,7 @@
   }
 
   #niver2{
-    height: 520px;
+    height: 430px;
   }
 }
 
