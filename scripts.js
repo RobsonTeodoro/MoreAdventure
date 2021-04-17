@@ -156,9 +156,9 @@ function tela(){
   }
 
   if(hora >= 6 && hora < 18){
-    guide.innerHTML = `<a class="font-weight-bolder" href="https://www.instagram.com/carirch/" target="_blank" style="color:rgba(204, 7, 116, 0.89);"> Carine Ribeiro </a>`
+    guide.innerHTML = `<a class="font-weight-bolder" href="guias.html" style="color:rgba(204, 7, 116, 0.89);"> Carine Ribeiro </a>`
   }else{
-    guide.innerHTML = `<a class="font-weight-bolder" href="https://www.instagram.com/carirch/" target="_blank" style="color:rgba(128, 8, 226, 0.979);"> Carine Ribeiro </a>`
+    guide.innerHTML = `<a class="font-weight-bolder" href="guias.html" style="color:rgba(128, 8, 226, 0.979);"> Carine Ribeiro </a>`
   }
 }
 
