@@ -16,17 +16,17 @@ function carregar() {
   if (hora >= 0 && hora < 12) {
     //bom dia
     msg.innerHTML = `<rtrs style="color: green;"> <strong>Bom dia! São ${hora} hora(s) e ${minuto} minutos! </strong></rtrs> <br> Clique <a href="#enviar">aqui</a> e venha trilhar com a gente!`
-    img.src = "Imagens/Produtos/produtos.jpg";
+    img.src = "Imagens/Capas/elas.jpg";
     
   } else if (hora >= 12 && hora < 18) {
     //boa tarde
     msg.innerHTML = `<rtrs style="color: green;"> <strong>Boa tarde! São ${hora} hora(s) e ${minuto} minutos!</strong></rtrs> <br> Clique <a href="#enviar">aqui</a> e venha trilhar com a gente!`
-    img.src = "Imagens/Produtos/caneca2.jpg";
+    img.src = "Imagens/Capas/elas.jpg";
     
   } else {
     //boa noite
     msg.innerHTML = `<rtrs style="color: green;"> <strong>Boa noite! São ${hora} hora(s) e ${minuto} minutos!</strong></rtrs> <br> Clique <a href="#enviar">aqui</a> e venha trilhar com a gente!`
-    img.src = "Imagens/Produtos/agenda.jpg";
+    img.src = "Imagens/Capas/elas.jpg";
     
   }
 }
@@ -40,6 +40,7 @@ function tela(){
   var clic = window.document.getElementById("clica");
   var card = window.document.getElementById("cartao");
   var mail = window.document.getElementById("sendMail");
+  var guide = window.document.getElementById("guia");
 
   var dataHora = new Date();
   var hora = dataHora.getHours();
@@ -67,12 +68,12 @@ function tela(){
 
   if (hora >= 6 && hora < 18){
     email.innerHTML = `<rtr>
-                          Nos envie um <a href="#enviar" style="color: rgba(204, 7, 116, 0.89);">email</a> e agende sua aventura!
+                          nos envie um <a href="#enviar" style="color: rgba(204, 7, 116, 0.89);">email</a> e agende sua aventura!
                        </rtr>`
   }
   else{
     email.innerHTML = `<rtr>
-                          Nos envie um <a href="#enviar" style="color: rgba(128, 8, 226, 0.979);">email</a> e agende sua aventura!
+                          nos envie um <a href="#enviar" style="color: rgba(128, 8, 226, 0.979);">email</a> e agende sua aventura!
                        </rtr>`
   }
 
@@ -153,11 +154,13 @@ function tela(){
   }else{
     mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(128, 8, 226, 0.979); color: white; font-weight: bold;">Clique Aqui</a>`
   }
+
+  if(hora >= 6 && hora < 18){
+    guide.innerHTML = `<a class="font-weight-bolder" href="https://www.instagram.com/carirch/" target="_blank" style="color:rgba(204, 7, 116, 0.89);"> Carine Ribeiro </a>`
+  }else{
+    guide.innerHTML = `<a class="font-weight-bolder" href="https://www.instagram.com/carirch/" target="_blank" style="color:rgba(128, 8, 226, 0.979);"> Carine Ribeiro </a>`
+  }
 }
-
-
-
-
 
 function pico(){
   var cba = window.document.getElementById("cabeca");
@@ -168,6 +171,7 @@ function pico(){
   var inc = window.document.getElementById("incluso");
   var clic = window.document.getElementById("clica");
   var mail = window.document.getElementById("sendMail");
+  
 
   var dataHora = new Date();
   var hora = dataHora.getHours();
@@ -277,7 +281,6 @@ function pico(){
   }else{
     mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(128, 8, 226, 0.979); color: white; font-weight: bold;">Clique Aqui</a>`
   }
-
   
 }
 
