@@ -163,11 +163,11 @@ function tela(){
   }
 
   if(hora >= 6 && hora < 18){
-    copy.innerHTML = `<div id="copyright" class="copyright" style="background-color:rgba(204, 7, 116, 0.89);">
+    copy.innerHTML = `<div id="copyright" class="copyright" style="background-color:rgba(204, 7, 116, 0.89); color: white">
                 <h6 class="text-center direito">Todos os direitos reservados <span  class="font-weight-bolder">&copyTrilhandoTeresopolis - CNPJ: 02.331.195/0001-88</span></h6>
             </div>`
   }else{
-    copy.innerHTML = `<div id="copyright" class="copyright" style="background-color:rgba(128, 8, 226, 0.979)">
+    copy.innerHTML = `<div id="copyright" class="copyright" style="background-color:rgba(128, 8, 226, 0.979); color: white">
                 <h6 class="text-center direito">Todos os direitos reservados <span  class="font-weight-bolder">&copyTrilhandoTeresopolis - CNPJ: 02.331.195/0001-88</span></h6>
             </div>`
   }
