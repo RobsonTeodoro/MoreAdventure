@@ -41,6 +41,7 @@ function tela(){
   var card = window.document.getElementById("cartao");
   var mail = window.document.getElementById("sendMail");
   var guide = window.document.getElementById("guia");
+  var copy = window.document.getElementById("copyright");
 
   var dataHora = new Date();
   var hora = dataHora.getHours();
@@ -160,8 +161,20 @@ function tela(){
   }else{
     guide.innerHTML = `<a class="font-weight-bolder" href="guias.html" style="color:rgba(128, 8, 226, 0.979);"> Carine Ribeiro </a>`
   }
+
+  if(hora >= 6 && hora < 18){
+    copy.innerHTML = `<div id="copyright" class="copyright" style="background-color:rgba(204, 7, 116, 0.89);">
+                <h6 class="text-center direito">Todos os direitos reservados <span  class="font-weight-bolder">&copyTrilhandoTeresopolis - CNPJ: 02.331.195/0001-88</span></h6>
+            </div>`
+  }else{
+    copy.innerHTML = `<div id="copyright" class="copyright" style="background-color:rgba(128, 8, 226, 0.979)">
+                <h6 class="text-center direito">Todos os direitos reservados <span  class="font-weight-bolder">&copyTrilhandoTeresopolis - CNPJ: 02.331.195/0001-88</span></h6>
+            </div>`
+  }
 }
 
+
+/*picoTijuca3ParaElas*/
 function pico(){
   var cba = window.document.getElementById("cabeca");
   var event = window.document.getElementById("eventos");
@@ -171,6 +184,7 @@ function pico(){
   var inc = window.document.getElementById("incluso");
   var clic = window.document.getElementById("clica");
   var mail = window.document.getElementById("sendMail");
+  var copy = window.document.getElementById("copyright");
   
 
   var dataHora = new Date();
@@ -280,6 +294,16 @@ function pico(){
     mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(204, 7, 116, 0.89); color: white; font-weight: bold;">Clique Aqui</a>`
   }else{
     mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(128, 8, 226, 0.979); color: white; font-weight: bold;">Clique Aqui</a>`
+  }
+
+  if(hora >= 6 && hora < 18){
+    copy.innerHTML = `<div id="copyright" class="copyright" style="background-color:rgba(204, 7, 116, 0.89);color: white">
+                <h6 class="text-center direito">Todos os direitos reservados <span  class="font-weight-bolder">&copyTrilhandoTeresopolis - CNPJ: 02.331.195/0001-88</span></h6>
+            </div>`
+  }else{
+    copy.innerHTML = `<div id="copyright" class="copyright" style="background-color:rgba(128, 8, 226, 0.979); color: white">
+                <h6 class="text-center direito">Todos os direitos reservados <span  class="font-weight-bolder">&copyTrilhandoTeresopolis - CNPJ: 02.331.195/0001-88</span></h6>
+            </div>`
   }
   
 }

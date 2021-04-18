@@ -466,6 +466,9 @@ footer #rodape {
   color: #fff;
 }
 
+.copyright{
+  height: 4ch;
+}
 
 /*Pagina Aventuras*/
 .home{
@@ -527,6 +530,9 @@ footer #rodape {
   background-size: 110% 100%;
 }
 
+.copyright{
+  height: 6ch;
+}
 
 /*BANNER PAGINA INDEX*/
 .banner{
