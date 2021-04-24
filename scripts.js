@@ -42,6 +42,7 @@ function tela(){
   var mail = window.document.getElementById("sendMail");
   var guide = window.document.getElementById("guia");
   var copy = window.document.getElementById("copyright");
+  var warning = window.document.getElementById("aviso");
 
   var dataHora = new Date();
   var hora = dataHora.getHours();
@@ -160,6 +161,12 @@ function tela(){
     guide.innerHTML = `<a class="font-weight-bolder" href="guias.html" style="color:rgba(204, 7, 116, 0.89);"> Carine Ribeiro </a>`
   }else{
     guide.innerHTML = `<a class="font-weight-bolder" href="guias.html" style="color:rgba(128, 8, 226, 0.979);"> Carine Ribeiro </a>`
+  }
+
+  if(hora >= 6 && hora < 18){
+    warning.innerHTML = `<a class="font-weight-bold" href="guias.html" style="color:rgba(204, 7, 116, 0.89);">guia</a>`
+  }else{
+    warning.innerHTML = `<a class="font-weight-bold" href="guias.html" style="color:rgba(128, 8, 226, 0.979);">guia</a>`
   }
 
   if(hora >= 6 && hora < 18){
