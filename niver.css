@@ -1,8 +1,9 @@
 .imgNiver {
   width: 100%;
-  border-radius: 5px;
   height: 900px;
   object-fit: cover;
+
+  height: 49%;
 }
 
 .cardNiver {
@@ -11,6 +12,14 @@
   overflow: hidden;
 
   height: 49%;
+}
+
+#niver{
+  height: auto;
+}
+
+#niver2{
+  height: 220pt;
 }
 
 @media only screen and (max-width: 600px) {
@@ -26,7 +35,7 @@
   }
 
   #niver2{
-    height: 520px;
+    height: 390px;
   }
 }
 
