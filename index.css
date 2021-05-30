@@ -425,16 +425,16 @@ footer #rodape {
 
   .JumboHeadImgIndex {
     background-image: url(Imagens/Capas/sacristia0.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 175px;
-    object-fit: cover;
+    padding: 150px;
+    object-fit: contain;
   
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100% 100%;
+    background-size: 22.5em 16em;
   }
 
 
@@ -472,7 +472,8 @@ footer #rodape {
 
 /*BANNER PAGINA INDEX*/
 .banner{
-  margin-top: -16px;  
+  /*margin-top: -16px;caete*/
+  margin-top: -30px;/*sacristia*/
 }
 
   .container {
