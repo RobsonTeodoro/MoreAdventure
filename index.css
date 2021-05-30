@@ -423,8 +423,8 @@ footer #rodape {
     object-fit: cover;
   }
 
-  /*.JumboHeadImgIndex {
-    background-image: url(Imagens/Capas/sacristia1.jpg);
+  .JumboHeadImgIndex {
+    background-image: url(Imagens/Capas/sacristia0.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -435,12 +435,12 @@ footer #rodape {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: 100% 100%;
-  }*/
+  }
 
 
-  .JumboHeadImgIndex {
+  /*.JumboHeadImgIndex {
     background-image: url(Imagens/Capas/caete2.jpg);
-    background-size: cover; /**/
+    background-size: cover; contain
     background-position: center;
     background-repeat: no-repeat;
     padding: 160px;
@@ -450,7 +450,7 @@ footer #rodape {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: 100% 90%;
-  }
+  }*/
 
   .JumboHeadImgParaElas {
   background-image: url(Imagens/Capas/elas.jpg);
