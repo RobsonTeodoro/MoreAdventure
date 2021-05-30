@@ -15,7 +15,7 @@
 }
 
 #niver{
-  height: auto;
+  height: fit-content /*auto*/;
 }
 
 #niver2{
@@ -35,7 +35,7 @@
   }
 
   #niver2{
-    height: 440px;
+    height: 415px;
   }
 }
 
