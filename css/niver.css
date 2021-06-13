@@ -1,0 +1,60 @@
+.imgNiver {
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+
+  height: 49%;
+}
+
+.cardNiver {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  height: 64%;
+}
+
+#niver{
+  height: max-content;
+}
+
+#niver2{
+  height: 220pt;
+}
+
+/*alterar o tamanho do card dos aniversariantes*/
+#niver2, .card-img-bottom{
+  height: 19vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .JumboHeadImgIndex {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .container {
+    width: 96px;
+    text-align: center;
+  }
+
+  #niver2{
+    height: 390px;
+  }
+}
+
+@media (min-width: 40rem) {
+  .cardNiver {
+    width: 100%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cardNiver {
+    width: 100%;
+  }
+
+}
+
+
