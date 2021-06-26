@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/*..JumboHeadImgIndex {
+..JumboHeadImgIndex {
   background-image: url(../Imagens/Capas/sacristia10.jpg);
   background-size: cover;
   background-position: center;
@@ -14,9 +14,9 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100% 115%;
-}*/
+}
 
-JumboHeadImgIndex {
+/*JumboHeadImgIndex {
   background-image: url(../Imagens/Capas/caete2.jpg);
   background-size: cover;
   background-position: center;
@@ -28,7 +28,7 @@ JumboHeadImgIndex {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100% 122%;
-}
+}*/
 
 .JumboHeadImgFotoMes {
   background-image: url(../Imagens/Capas/medanha.jpg);
