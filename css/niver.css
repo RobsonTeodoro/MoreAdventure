@@ -14,17 +14,18 @@
   height: 64%;
 }
 
-#niver{
+#niver {
   height: max-content;
 }
 
-#niver2{
+#niver2 {
   height: 220pt;
 }
 
 /*alterar o tamanho do card dos aniversariantes*/
-#niver2, .card-img-bottom{
-  height: 16vw;
+#niver2,
+.card-img-bottom {
+  height: 15.5vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -39,8 +40,8 @@
     text-align: center;
   }
 
-  #niver2{
-    height: 460px;
+  #niver2 {
+    height: 390px;
   }
 }
 
@@ -54,7 +55,4 @@
   .cardNiver {
     width: 100%;
   }
-
 }
-
-
