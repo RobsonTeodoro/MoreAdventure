@@ -14,19 +14,26 @@
   height: 64%;
 }
 
-#niver {
-  height: max-content;
-}
-
-#niver2 {
-  height: 220pt;
+/*alterar foto dos aniversariantes*/
+.carousel-item .card-img-top{
+  width: 100%;
+  height: 18.5vw;
+  object-fit: cover;
 }
 
 /*alterar o tamanho do card dos aniversariantes*/
 #niver2,
 .card-img-bottom {
-  height: 15.5vw;
+  height: 18.5vw;
 }
+
+#niver {
+  height: max-content;
+}
+
+/*#niver2 {
+  height: 220px;
+}*/
 
 @media only screen and (max-width: 600px) {
   .JumboHeadImgIndex {
@@ -40,9 +47,23 @@
     text-align: center;
   }
 
-  #niver2 {
-    height: 470px;
-  }
+  /*alterar foto dos aniversariantes*/
+.carousel-item .card-img-top{
+  width: 100%;
+  height: 100vw;
+  object-fit: cover;
+}
+
+
+/*alterar o tamanho do card dos aniversariantes*/
+#niver2,
+.card-img-bottom {
+  height: 100vw;
+}
+
+  /*#niver2 {
+    height: 390px;
+  }*/
 }
 
 @media (min-width: 40rem) {
