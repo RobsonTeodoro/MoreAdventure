@@ -23,19 +23,19 @@
 
         <link rel="icon" href="Imagens/logo3.jpg">
 
-        <title>Canecas - Trilhando Teresópolis</title>
+        <title>Pico da Tijuca - Trilhando Teresópolis</title>
         
     </head>
 
     <body>
         <header class="container-fluid container-md">
-            <div class="jumbotron-fluid JumboHeadImgCanecas">
-                <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="jumbotron-fluid JumboHeadImgPiTij">
+                <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
                     <a class="navbar-brand" href="index.html">
                         <img src="Imagens/Logo/logo2.jpg" alt="Trilhando Teresópolis" width="110px">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavBar"
-                            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -72,7 +72,7 @@
                                         <a class="nav-link font-weight-bold w3-text-pink" href="paraElas.html" >Para Elas</a>
                                     </div>
                             </li>
-
+                            
                             <li class="nav-item active">
                                 <a class="nav-link font-weight-bold w3-text-pink" href="paraElas.html">
                                     <i class="fa fa-venus font-weight-bold"></i>
@@ -92,7 +92,7 @@
                                         <a class="nav-link font-weight-bold text-success" href="canecas.html">Canecas</a>
                                     </div>
                             </li>
-
+                            
                             <li class="nav-item active">
                                 <a class="nav-link font-weight-bold text-success" href="noticiasPrincipal.html">
                                     <i class="fa fa-newspaper-o"></i>
@@ -132,11 +132,42 @@
             </div>
         </header>
 
-        <div class="container container-fluid container-md">
-            <h3 class="text-white text-center font-weight-bold bg-success">
-                SESSÃO DE COMPRAS - CANECAS
-            </h3>
-        </div>
+        <section>
+            <div class="container container-fluid container-md">
+                <h4 class="text-center text-white font-weight-bolder bg-success">
+                  PEDRA SELADA
+                </h4>
+            </div>
+        </section>
+
+        <!--<section>
+            <div class="container-md container-fluid">
+                INICIO FORMULARIO BOTAO PAGSEGURO
+                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO
+                <input class="dist" type="hidden" name="code" value="D8EA452E1313CCAFF4FE6FB26A42E8CD" />
+                <input class="dist" type="hidden" name="iot" value="button" />
+                <input class="dist" type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                </form>
+                 FINAL FORMULARIO BOTAO PAGSEGURO 
+            </div>
+        </section>
+
+        
+
+        <section>
+            <div class="container-md container-fluid">
+                <button class="btn btn-success" onclick="document.location='formulario.html'" disabled>Comprar</button>
+            </div>
+        </section>-->
+
+        <!--<section>
+           <div class="container-fluid container-md">
+            <script src="https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js"
+                    data-preference-id="660387056-7b889f60-6e3c-4ee8-a28e-1269c58d65fc">
+            </script>
+           </div>
+        </section>-->
 
         <section>
             <p>
@@ -144,47 +175,163 @@
                     <nav>
                         <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" 
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Produtos
+                        Eventos
                         </a>
                 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <h6 class="dropdown-header">CONFIRA</h6>
-                                <a class="dropdown-item text-success font-weight-bold" href="produtos.html">Produtos</a>
-                                <a class="dropdown-item text-success font-weight-bold" href="agendas.html">Agendas</a>
-                                <a class="dropdown-item font-weight-bold disabled" href="#"><s>Camisas</s></a>
-                                <a class="dropdown-item font-weight-bold disabled" href="canecas.html">Canecas</a>
+                            <h6 class="dropdown-header">Próximos Eventos</h6>
+                                <a class="dropdown-item text-success font-weight-bold" href="eventos.html">Todos os Eventos</a>
+                                <a class="dropdown-item text-success font-weight-bold" href="bateVolta.html">Eventos Bate e Volta</a>
+                                <a class="dropdown-item text-success font-weight-bold" href="feriados.html">Eventos Feriados</a>
+                                <a class="dropdown-item text-success font-weight-bold" href="fds.html">Eventos Finais de Semana</a>
+                                <h6 class="dropdown-divider"></h6>
+                            <h6 class="dropdown-header">Próximos Eventos PNE</h6>
+                                <a class="dropdown-item text-success font-weight-bold" href="bateVoltaPNE.html">Eventos PNE</a>
+                            <h6 class="dropdown-divider"></h6>
+                            <h6 class="dropdown-header">Eventos Para Elas</h6>
+                                <a class="dropdown-item w3-text-pink font-weight-bold" href="paraElas.html">Para Elas</a>
                         </div>
                     </nav>
                 </div>
             </p>
         </section>
-        
-    
+
         <section>
-            <div>
-                <div class="container container-fluid container-md">
-                    <div class="row">                                                
-                        <div class="col-sm-3">
-                            <div class="card w3-lime">
-                                <a href="canecas.html">
-                                    <img src="Imagens/Produtos/caneca.jpg" class="img-fluid card-img-top">
-                                </a>
-                                <div class="card-body">
-                                    <h5 class="card-title text-dark text-center"><b>Caneca Trilhando Teresópolis</b></h5>
-                                    <p class="ttt card-text text-dark text-center">Caneca personalizada Trilhando Teresópolis para a melhor parte das trilhas, 
-                                            o <b>café</b> nas montanhas! <br> Por apenas R$ 14,90</p>
-                                    <p class="ttt card-footer text-center">
-                                        <a class="text-primary font-weight-bolder" href="formulario.html">Comprar</a>
-                                    </p>
-                                </div>
+            <p>
+                <div class="container-fluid container-md">
+                    <h3 class="font-weight-bold text-success">
+                        Pedra Selada – Serra da Mantiqueira
+                    </h3>
+        
+                    <p class="ttt">
+                        <span>
+                            Nos envie um <a class="text-success" href="#enviar">email</a> e agende sua aventura!
+                        </span>
+                    </p>
+                </div>
+            </p>
+        </section>
+
+        <section>
+            <p>
+                <div class="container-fluid container-md">
+                    <div>   
+                        <p>
+                            <div class="text-center">
+                                <img class="img-fluid text-center" src="Imagens/Aventuras/pedraSelada.jpg" title="Topo" width="500px">
                             </div>
-                        </div>
+                        </p>
+
+                        <p>
+                          <h6 class="font-weight-bold text-center text-success">
+                            Topo do Pico da Tijuca
+                          </h6>
+                        </p>
+
+                        <br>
+                        
+                        <p>
+                            <h4>
+                                <strong class="text-success">
+                                    Serviços Inclusos
+                                </strong>
+                            </h4>
+                        </p>
+
+                        <section>
+                            🚌 Transporte
+                            <br><br>
+                        🧭 Guia de Turismo 😅NÍVEL: MODERADO
+                            <br><br>
+                        <i class="fa fa-hourglass-half text-danger"></i>
+                            VAGAS: 5
+                        <i class="fa fa-money text-success"></i>
+                            Valor: R$ 80,00
+                        </section>
+
+                        <br>
+                        
+                        <p>
+                            A Pedra Selada é o pico mais alto da região de Visconde de Mauá. São 1755m de altitude que trazem uma vista incrível para 
+                            quem vence as 2h de caminhada. Seu nome se deve ao seu formato peculiar, que mais parece uma sela de cavalo. 
+                            A Pedra Selada fica localizada na Serra da Mantiqueira.
+                        </p>
+
+                        <!--<section>
+                            <div class="container-fluid container-md">
+                             <script src="https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js"
+                                     data-preference-id="660387056-7b889f60-6e3c-4ee8-a28e-1269c58d65fc">
+                             </script>
+                            </div>
+                         </section>
+    
+                        <p>
+                            <ul>
+                              <li class="font-weight-bold">DEZEMBRO</li>
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-map-marker text-success"></i>
+                                        <a class="font-weight-bold" href="picoTijuca.html">PICO DA TIJUCA</a> <br>
+                                        <i class="fa fa-globe text-info"></i>
+                                            LOCAL: RIO DE JANEIRO <br>
+                                        <i class="fa fa-calendar text-dark"></i>
+                                            DATA: 08/12/19 <br>
+                                        <i class="fa fa-money text-success"></i>
+                                            VALOR: R$80,00 <br>                                            
+                                            😅NÍVEL:MODERADO <br>
+                                        
+                                            <a class="btn btn-success" href="mailto:robson.rtrs@hotmail.com">Reserve Aqui</a>
+                                    </li>        
+                                </ul>                            
+                            </ul>
+                        </p>-->
+
+                        <section>
+                            <p>
+                                <div id="enviar" class="container-fluid container-md">
+                                    <p>Clique aqui e agende sua trilha com a gente!</p>
+                                    <a class="btn btn-success btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank">Clique Aqui</a>
+                                </div>
+                            </p>
+                        </section>
+
                     </div>
                 </div>
-            </div>
+            </p>
         </section>
-        </p>
 
+        <!--<section>
+            <div class="container-md container-fluid" >
+                <p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyGeZJPnCeaMPaZEq8nyWbPn6pigbtwwIx0tKuffEBLHtf3w/viewform?embedded=true"
+                     target="_blank" rel="noopener noreferrer" width="822" height="773" frameborder="0" marginheight="0" marginwidth="0">Responda ao Questionário</a>
+                </p>
+              </div>            
+        </section>-->
+
+        <!--<section>
+          <div class="container-md container-fluid" >
+            <p>
+              Gostou da trilha?
+              Compre apertando o botão abaixo e venha conosco!
+            </p>
+          </div>
+        </section>-->
+               
+        <!--<section>
+            <div class="container-md container-fluid">
+                INICIO FORMULARIO BOTAO PAGSEGURO
+                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO
+                <input class="dist" type="hidden" name="code" value="D8EA452E1313CCAFF4FE6FB26A42E8CD" />
+                <input class="dist" type="hidden" name="iot" value="button" />
+                <input class="dist" type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                </form>
+                 FINAL FORMULARIO BOTAO PAGSEGURO 
+            </div>
+        </section>-->
+
+        <br>
         <hr>
 
         <section>
