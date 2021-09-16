@@ -125,27 +125,29 @@ function tela(){
 
   if (hora >= 6 && hora < 18){
     card.innerHTML = `<div class=" card border w3-animate-bottom" style="background-color: rgba(204, 7, 116, 0.89); color: white">
-                        <a href="picoTijuca3ParaElas.html">
-                            <img src="Imagens/Aventuras/tijuca2.jpg" alt="Pico da Tijuca" class="card-img-top"></a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center font-weight-bolder">Dezembro <br> Pico da Tijuca</h5>
-                            <p class="ttt card-text text-md-center font-weight-bold">Valor: R$80,00</p>
-                            <p class="ttt card-footer text-center font-weight-bold">
-                                <a class="text-white" href="picoTijuca3ParaElas.html">Veja Aqui o Evento</a>
-                            </p>
-                        </div>
+                        <!--<a href="eventosParaElas.html">
+                          <img src="Imagens/Aventuras/tijuca2.jpg" alt="Pico da Tijuca" class="card-img-top"></a>-->
+                          <img src="Imagens/Capas/elas.jpg" class="card-img-top">
+                      <div class="card-body">
+                          <h5 class="card-title text-center font-weight-bolder">A ser divulgado</h5>
+                          <!--<p class="ttt card-text text-md-center font-weight-bold">Valor: R$80,00</p>
+                          <p class="ttt card-footer text-center font-weight-bold">
+                              <a class="text-white" href="eventosParaElas.html">Veja Aqui o Evento</a>
+                          </p>-->
+                      </div>
                     </div>`
   }
   else{
     card.innerHTML =  `<div class=" card border w3-animate-bottom" style="background-color: rgba(128, 8, 226, 0.979); color: white">
-                          <a href="picoTijuca3ParaElas.html">
-                              <img src="Imagens/Aventuras/tijuca2.jpg" alt="Pico da Tijuca" class="card-img-top"></a>
+                          <!--<a href="eventosParaElas.html">
+                              <img src="Imagens/Aventuras/tijuca2.jpg" alt="Pico da Tijuca" class="card-img-top"></a>-->
+                              <img src="Imagens/Capas/elas.jpg" class="card-img-top">
                           <div class="card-body">
-                              <h5 class="card-title text-center font-weight-bolder">Dezembro <br> Pico da Tijuca</h5>
-                              <p class="ttt card-text text-md-center font-weight-bold">Valor: R$80,00</p>
+                              <h5 class="card-title text-center font-weight-bolder">A ser divulgado</h5>
+                              <!--<p class="ttt card-text text-md-center font-weight-bold">Valor: R$80,00</p>
                               <p class="ttt card-footer text-center font-weight-bold">
-                                  <a class="text-white" href="picoTijuca3ParaElas.html">Veja Aqui o Evento</a>
-                              </p>
+                                  <a class="text-white" href="eventosParaElas.html">Veja Aqui o Evento</a>
+                              </p>-->
                           </div>
                       </div>`
   }
@@ -180,7 +182,7 @@ function tela(){
 }
 
 
-/*picoTijuca3ParaElas*/
+/*eventosParaElas*/
 function pico(){
   var cba = window.document.getElementById("cabeca");
   var event = window.document.getElementById("eventos");
