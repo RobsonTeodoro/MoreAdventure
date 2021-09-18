@@ -78,7 +78,7 @@ function tela(){
                        </rtr>`
   }
 
-  if (hora >= 6 && hora < 18){
+  /*if (hora >= 6 && hora < 18){
     clic.innerHTML = `<p style="color:rgba(204, 7, 116, 0.89);">
                           Clique aqui e agende sua trilha com a gente!
                       </p>`
@@ -87,7 +87,7 @@ function tela(){
     clic.innerHTML = `<p style="color:rgba(128, 8, 226, 0.979);">
                           Clique aqui e agende sua trilha com a gente!
                       </p>`
-  }
+  }*/
 
   if(hora >= 6 && hora < 18){
     event.innerHTML = `<p>    
@@ -152,11 +152,11 @@ function tela(){
                       </div>`
   }
 
-  if(hora >= 6 && hora < 18){
+  /*if(hora >= 6 && hora < 18){
     mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(204, 7, 116, 0.89); color: white; font-weight: bold;">Clique Aqui</a>`
   }else{
     mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(128, 8, 226, 0.979); color: white; font-weight: bold;">Clique Aqui</a>`
-  }
+  }*/
 
   if(hora >= 6 && hora < 18){
     guide.innerHTML = `<a class="font-weight-bolder" href="guias.html" style="color:rgba(204, 7, 116, 0.89);"> Carine Ribeiro </a>`
@@ -219,7 +219,7 @@ function pico(){
                        </h3>`
   }
 
-  if (hora >= 6 && hora < 18){
+  /*if (hora >= 6 && hora < 18){
     email.innerHTML = `<rtr>
                           Nos envie um <a href="#enviar" style="color: rgba(204, 7, 116, 0.89);">email</a> e agende sua aventura!
                        </rtr>`
@@ -240,7 +240,7 @@ function pico(){
     clic.innerHTML = `<p style="color:rgba(128, 8, 226, 0.979);">
                           Clique aqui e agende sua trilha com a gente!
                       </p>`
-  }
+  }*/
 
   if(hora >= 6 && hora < 18){
     event.innerHTML = `<p>    
