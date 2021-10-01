@@ -94,6 +94,14 @@ html {
   padding: 190px;
 }
 
+.JumboHeadImgbateVoltaKids {
+  background-image: url(../Imagens/Capas/ibitipoca.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
 .JumboHeadImgParaElas {
   background-image: url(../Imagens/Capas/elas.jpg);
   background-size: cover; /**/
