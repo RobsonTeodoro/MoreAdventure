@@ -94,14 +94,6 @@ html {
   padding: 190px;
 }
 
-.JumboHeadImgbateVoltaKids {
-  background-image: url(../Imagens/Capas/ibitipoca.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 190px;
-}
-
 .JumboHeadImgParaElas {
   background-image: url(../Imagens/Capas/elas.jpg);
   background-size: cover; /**/
@@ -236,6 +228,14 @@ html {
 
 .JumboHeadImgInic {
   background-image: url(../Imagens/Capas/Arpoador.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgMotivo {
+  background-image: url(../Imagens/Capas/nf.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
