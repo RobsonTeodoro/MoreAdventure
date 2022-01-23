@@ -78,7 +78,7 @@ function tela(){
                        </rtr>`
   }
 
-  /*if (hora >= 6 && hora < 18){
+  if (hora >= 6 && hora < 18){
     clic.innerHTML = `<p style="color:rgba(204, 7, 116, 0.89);">
                           Clique aqui e agende sua trilha com a gente!
                       </p>`
@@ -87,27 +87,21 @@ function tela(){
     clic.innerHTML = `<p style="color:rgba(128, 8, 226, 0.979);">
                           Clique aqui e agende sua trilha com a gente!
                       </p>`
-  }*/
+  }
 
   if(hora >= 6 && hora < 18){
     event.innerHTML = `<p>    
                           <div class="dropdown">
                               <button onclick="myFunction()" class="dropbtn" style="background-color: rgba(204, 7, 116, 0.89);">Eventos</button>
                               <div id="myDropdown" class="dropdown-content">
-                              <h6 class="dropdown-header">Próximos Eventos</h6>
-                              <a class="dropdown-item text-success font-weight-bold" href="eventos.html">Todos os Eventos</a>
-                              <a class="dropdown-item text-success font-weight-bold" href="bateVolta.html">Eventos Bate e Volta</a>
-                              <a class="dropdown-item text-success font-weight-bold" href="feriados.html">Eventos Feriados</a>
-                              <a class="dropdown-item text-success font-weight-bold" href="fds.html">Eventos Finais de Semana</a>
-                              <h6 class="dropdown-divider"></h6>
-                          <h6 class="dropdown-header">Próximos Eventos PNE</h6>
-                              <a class="dropdown-item text-success font-weight-bold" href="bateVoltaPNE.html">Eventos PNE</a>
-                          <h6 class="dropdown-divider"></h6>
-                          <h6 class="dropdown-header">Eventos Para Elas</h6>
-                              <a class="dropdown-item w3-text-pink font-weight-bold" href="paraElas.html">Para Elas</a>
-                          <h6 class="dropdown-divider"></h6>
-                          <h6 class="dropdown-header">Eventos Kids</h6>
-                              <a class="dropdown-item text-success font-weight-bold" href="bateVoltaKids.html">Kids</a>
+                                  <a class="font-weight-bold text-success" href="eventos.html">Todos os Eventos</a>
+                                  <a class="font-weight-bold text-success" href="bateVolta.html">Bate e Volta</a>
+                                  <a class="font-weight-bold text-success" href="feriados.html">Feriados</a>
+                                  <a class="font-weight-bold text-success" href="fds.html">Finais de Semana</a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold text-success" href="bateVoltaPNE.html">Bate e Volta PNE <i class="fa fa-wheelchair"></i> </a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold w3-text-pink" href="paraElas.html" >Para Elas</a>
                               </div>
                           </div>
                       </p>`
@@ -116,20 +110,14 @@ function tela(){
                           <div class="dropdown">
                               <button onclick="myFunction()" class="dropbtn" style="background-color: rgba(128, 8, 226, 0.979);">Eventos</button>
                               <div id="myDropdown" class="dropdown-content">
-                              <h6 class="dropdown-header">Próximos Eventos</h6>
-                              <a class="dropdown-item text-success font-weight-bold" href="eventos.html">Todos os Eventos</a>
-                              <a class="dropdown-item text-success font-weight-bold" href="bateVolta.html">Eventos Bate e Volta</a>
-                              <a class="dropdown-item text-success font-weight-bold" href="feriados.html">Eventos Feriados</a>
-                              <a class="dropdown-item text-success font-weight-bold" href="fds.html">Eventos Finais de Semana</a>
-                              <h6 class="dropdown-divider"></h6>
-                          <h6 class="dropdown-header">Próximos Eventos PNE</h6>
-                              <a class="dropdown-item text-success font-weight-bold" href="bateVoltaPNE.html">Eventos PNE</a>
-                          <h6 class="dropdown-divider"></h6>
-                          <h6 class="dropdown-header">Eventos Para Elas</h6>
-                              <a class="dropdown-item w3-text-pink font-weight-bold" href="paraElas.html">Para Elas</a>
-                          <h6 class="dropdown-divider"></h6>
-                          <h6 class="dropdown-header">Eventos Kids</h6>
-                              <a class="dropdown-item text-success font-weight-bold" href="bateVoltaKids.html">Kids</a>
+                                  <a class="font-weight-bold text-success" href="eventos.html">Todos os Eventos</a>
+                                  <a class="font-weight-bold text-success" href="bateVolta.html">Bate e Volta</a>
+                                  <a class="font-weight-bold text-success" href="feriados.html">Feriados</a>
+                                  <a class="font-weight-bold text-success" href="fds.html">Finais de Semana</a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold text-success" href="bateVoltaPNE.html">Bate e Volta PNE <i class="fa fa-wheelchair"></i> </a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold w3-text-pink" href="paraElas.html" >Para Elas</a>
                               </div>
                           </div>
                       </p>`
@@ -164,11 +152,11 @@ function tela(){
                       </div>`
   }
 
-  /*if(hora >= 6 && hora < 18){
+  if(hora >= 6 && hora < 18){
     mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(204, 7, 116, 0.89); color: white; font-weight: bold;">Clique Aqui</a>`
   }else{
     mail.innerHTML = `<a class="btn btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank" style="background-color: rgba(128, 8, 226, 0.979); color: white; font-weight: bold;">Clique Aqui</a>`
-  }*/
+  }
 
   if(hora >= 6 && hora < 18){
     guide.innerHTML = `<a class="font-weight-bolder" href="guias.html" style="color:rgba(204, 7, 116, 0.89);"> Carine Ribeiro </a>`
@@ -256,48 +244,36 @@ function pico(){
 
   if(hora >= 6 && hora < 18){
     event.innerHTML = `<p>    
-                        <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbtn" style="background-color: rgba(204, 7, 116, 0.89);">Eventos</button>
-                            <div id="myDropdown" class="dropdown-content">
-                            <h6 class="dropdown-header">Próximos Eventos</h6>
-                            <a class="dropdown-item text-success font-weight-bold" href="eventos.html">Todos os Eventos</a>
-                            <a class="dropdown-item text-success font-weight-bold" href="bateVolta.html">Eventos Bate e Volta</a>
-                            <a class="dropdown-item text-success font-weight-bold" href="feriados.html">Eventos Feriados</a>
-                            <a class="dropdown-item text-success font-weight-bold" href="fds.html">Eventos Finais de Semana</a>
-                            <h6 class="dropdown-divider"></h6>
-                        <h6 class="dropdown-header">Próximos Eventos PNE</h6>
-                            <a class="dropdown-item text-success font-weight-bold" href="bateVoltaPNE.html">Eventos PNE</a>
-                        <h6 class="dropdown-divider"></h6>
-                        <h6 class="dropdown-header">Eventos Para Elas</h6>
-                            <a class="dropdown-item w3-text-pink font-weight-bold" href="paraElas.html">Para Elas</a>
-                        <h6 class="dropdown-divider"></h6>
-                        <h6 class="dropdown-header">Eventos Kids</h6>
-                            <a class="dropdown-item text-success font-weight-bold" href="bateVoltaKids.html">Kids</a>
-                            </div>
-                        </div>
-                    </p>`
+                          <div class="dropdown">
+                              <button onclick="myFunction()" class="dropbtn" style="background-color: rgba(204, 7, 116, 0.89);">Eventos</button>
+                              <div id="myDropdown" class="dropdown-content">
+                                  <a class="font-weight-bold text-success" href="eventos.html">Todos os Eventos</a>
+                                  <a class="font-weight-bold text-success" href="bateVolta.html">Bate e Volta</a>
+                                  <a class="font-weight-bold text-success" href="feriados.html">Feriados</a>
+                                  <a class="font-weight-bold text-success" href="fds.html">Finais de Semana</a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold text-success" href="bateVoltaPNE.html">Bate e Volta PNE <i class="fa fa-wheelchair"></i> </a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold w3-text-pink" href="paraElas.html" >Para Elas</a>
+                              </div>
+                          </div>
+                      </p>`
   }else{
     event.innerHTML = `<p>    
-                        <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbtn" style="background-color: rgba(128, 8, 226, 0.979);">Eventos</button>
-                            <div id="myDropdown" class="dropdown-content">
-                            <h6 class="dropdown-header">Próximos Eventos</h6>
-                            <a class="dropdown-item text-success font-weight-bold" href="eventos.html">Todos os Eventos</a>
-                            <a class="dropdown-item text-success font-weight-bold" href="bateVolta.html">Eventos Bate e Volta</a>
-                            <a class="dropdown-item text-success font-weight-bold" href="feriados.html">Eventos Feriados</a>
-                            <a class="dropdown-item text-success font-weight-bold" href="fds.html">Eventos Finais de Semana</a>
-                            <h6 class="dropdown-divider"></h6>
-                        <h6 class="dropdown-header">Próximos Eventos PNE</h6>
-                            <a class="dropdown-item text-success font-weight-bold" href="bateVoltaPNE.html">Eventos PNE</a>
-                        <h6 class="dropdown-divider"></h6>
-                        <h6 class="dropdown-header">Eventos Para Elas</h6>
-                            <a class="dropdown-item w3-text-pink font-weight-bold" href="paraElas.html">Para Elas</a>
-                        <h6 class="dropdown-divider"></h6>
-                        <h6 class="dropdown-header">Eventos Kids</h6>
-                            <a class="dropdown-item text-success font-weight-bold" href="bateVoltaKids.html">Kids</a>
-                            </div>
-                        </div>
-                    </p>`
+                          <div class="dropdown">
+                              <button onclick="myFunction()" class="dropbtn" style="background-color: rgba(128, 8, 226, 0.979);">Eventos</button>
+                              <div id="myDropdown" class="dropdown-content">
+                                  <a class="font-weight-bold text-success" href="eventos.html">Todos os Eventos</a>
+                                  <a class="font-weight-bold text-success" href="bateVolta.html">Bate e Volta</a>
+                                  <a class="font-weight-bold text-success" href="feriados.html">Feriados</a>
+                                  <a class="font-weight-bold text-success" href="fds.html">Finais de Semana</a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold text-success" href="bateVoltaPNE.html">Bate e Volta PNE <i class="fa fa-wheelchair"></i> </a>
+                                  <h6 class="dropdown-divider"></h6>
+                                  <a class="font-weight-bold w3-text-pink" href="paraElas.html" >Para Elas</a>
+                              </div>
+                          </div>
+                      </p>`
   }
 
  
